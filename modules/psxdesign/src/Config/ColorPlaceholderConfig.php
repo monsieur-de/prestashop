@@ -61,7 +61,7 @@ class ColorPlaceholderConfig
                 'label' => 'Background',
                 'variable_name' => '$btn-primary-bg',
                 'variable_type' => 'scss_variable',
-                'value' => '#24b9d7',
+                'value' => '#BF0001',
                 'category' => 'main_button',
             ],
             [
@@ -96,7 +96,7 @@ class ColorPlaceholderConfig
                 'label' => 'Text',
                 'variable_name' => '$brand-primary',
                 'variable_type' => 'scss_variable',
-                'value' => '#24b9d7',
+                'value' => '#BF0001',
                 'category' => 'links',
             ],
             [

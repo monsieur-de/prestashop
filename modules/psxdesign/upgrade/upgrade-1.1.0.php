@@ -189,12 +189,12 @@ function createColorPaletteDb_1_1_0(): void
     $db->execute($sqlDb);
 
     $sqlDefaultPalette = 'INSERT INTO ' . _DB_PREFIX_ . "psxdesign_color_palette (`name`, `primary`, `secondary`, `text`, `active`, `default`)
-                            VALUES ('Default', '#24b9d7', '#f39d72', '#363a42', 0, 1);";
+                            VALUES ('Default', '#BF0001', '#f39d72', '#363a42', 0, 1);";
 
     $db->execute($sqlDefaultPalette);
 
     $sqlDefaultSecondPalette = 'INSERT INTO ' . _DB_PREFIX_ . "psxdesign_color_palette (`name`, `primary`, `secondary`, `text`, `active`, `default`)
-                            VALUES ('Theme colors', '#24b9d7', '#f39d72', '#363a42', 1, 0);";
+                            VALUES ('Theme colors', '#BF0001', '#f39d72', '#363a42', 1, 0);";
 
     $db->execute($sqlDefaultSecondPalette);
 }

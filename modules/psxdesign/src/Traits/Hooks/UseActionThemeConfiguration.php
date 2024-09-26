@@ -47,7 +47,7 @@ trait UseActionThemeConfiguration
                     'label' => $this->trans('Background', [], 'Modules.Psxdesign.Admin'),
                     'variable_name' => '$btn-primary-bg',
                     'variable_type' => 'scss_variable',
-                    'value' => '#24b9d7',
+                    'value' => '#BF0001',
                     'category' => 'main_button',
                 ],
                 [
@@ -82,7 +82,7 @@ trait UseActionThemeConfiguration
                     'label' => $this->trans('Text', [], 'Modules.Psxdesign.Admin'),
                     'variable_name' => '$brand-primary',
                     'variable_type' => 'scss_variable',
-                    'value' => '#24b9d7',
+                    'value' => '#BF0001',
                     'category' => 'links',
                 ],
                 [
