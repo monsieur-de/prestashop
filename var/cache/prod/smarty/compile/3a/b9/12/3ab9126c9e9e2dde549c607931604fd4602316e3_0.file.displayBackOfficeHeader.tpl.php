@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-09-26 15:30:53
+/* Smarty version 4.3.4, created on 2024-09-27 09:46:38
   from '/home/justine/Documents/md/prestashop/modules/ps_faviconnotificationbo/views/templates/hook/displayBackOfficeHeader.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_66f5620ddbefe0_82236398',
+  'unifunc' => 'content_66f662de4e1155_25164700',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_66f5620ddbefe0_82236398 (Smarty_Internal_Template $_smarty_tpl) {
+function content_66f662de4e1155_25164700 (Smarty_Internal_Template $_smarty_tpl) {
 echo '<script'; ?>
 >
   if (undefined !== ps_faviconnotificationbo) {

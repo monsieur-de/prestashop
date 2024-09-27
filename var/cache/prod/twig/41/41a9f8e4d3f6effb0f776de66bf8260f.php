@@ -435,6 +435,6 @@ class __TwigTemplate_4a8e3847d4bc5e03cbccf71ef59a42af extends Template
 
     public function getSourceContext()
     {
-        return new Source("", "@PrestaShop/Admin/Multistore/header.html.twig", "/opt/lampp/htdocs/prestashop/src/PrestaShopBundle/Resources/views/Admin/Multistore/header.html.twig");
+        return new Source("", "@PrestaShop/Admin/Multistore/header.html.twig", "/home/justine/Documents/md/prestashop/src/PrestaShopBundle/Resources/views/Admin/Multistore/header.html.twig");
     }
 }

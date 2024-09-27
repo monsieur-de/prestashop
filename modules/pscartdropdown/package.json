@@ -1,0 +1,9 @@
+{
+    "author": "PrestaShop",
+    "name": "pscartdropdown",
+    "homepage": "https://github.com/PrestaShopCorp/pscartdropdown",
+    "version": "1.0.0",
+    "dependencies": {},
+    "license": "AFL-3.0",
+    "private": true
+}

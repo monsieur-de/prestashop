@@ -278,6 +278,6 @@ array_key_exists("legacyBaseLayout", $context)) ? (($context["legacyBaseLayout"]
 
     public function getSourceContext()
     {
-        return new Source("", "@PrestaShopCore/Admin/layout.html.twig", "/opt/lampp/htdocs/prestashop/src/PrestaShopBundle/Resources/views/Admin/layout.html.twig");
+        return new Source("", "@PrestaShopCore/Admin/layout.html.twig", "/home/justine/Documents/md/prestashop/src/PrestaShopBundle/Resources/views/Admin/layout.html.twig");
     }
 }

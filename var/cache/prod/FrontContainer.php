@@ -629,7 +629,7 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
      */
     protected function getCacheDirectoryProviderService()
     {
-        return $this->services['PrestaShop\\ModuleLibCacheDirectoryProvider\\Cache\\CacheDirectoryProvider'] = new \PrestaShop\ModuleLibCacheDirectoryProvider\Cache\CacheDirectoryProvider('8.1.7', '/opt/lampp/htdocs/prestashop', false);
+        return $this->services['PrestaShop\\ModuleLibCacheDirectoryProvider\\Cache\\CacheDirectoryProvider'] = new \PrestaShop\ModuleLibCacheDirectoryProvider\Cache\CacheDirectoryProvider('8.1.7', '/home/justine/Documents/md/prestashop', false);
     }
 
     /**
@@ -971,7 +971,7 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
      */
     protected function getLoggerDirectoryService()
     {
-        return $this->services['PrestaShop\\Module\\PrestashopCheckout\\Logger\\LoggerDirectory'] = new \PrestaShop\Module\PrestashopCheckout\Logger\LoggerDirectory('8.1.7', '/opt/lampp/htdocs/prestashop');
+        return $this->services['PrestaShop\\Module\\PrestashopCheckout\\Logger\\LoggerDirectory'] = new \PrestaShop\Module\PrestashopCheckout\Logger\LoggerDirectory('8.1.7', '/home/justine/Documents/md/prestashop');
     }
 
     /**
@@ -1001,7 +1001,7 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
      */
     protected function getLoggerHandlerFactoryService()
     {
-        return $this->services['PrestaShop\\Module\\PrestashopCheckout\\Logger\\LoggerHandlerFactory'] = new \PrestaShop\Module\PrestashopCheckout\Logger\LoggerHandlerFactory(($this->services['PrestaShop\\Module\\PrestashopCheckout\\Logger\\LoggerDirectory'] ?? ($this->services['PrestaShop\\Module\\PrestashopCheckout\\Logger\\LoggerDirectory'] = new \PrestaShop\Module\PrestashopCheckout\Logger\LoggerDirectory('8.1.7', '/opt/lampp/htdocs/prestashop')))->getPath(), ($this->services['PrestaShop\\Module\\PrestashopCheckout\\Logger\\LoggerFilename'] ?? $this->getLoggerFilenameService())->get(), ($this->services['PrestaShop\\Module\\PrestashopCheckout\\Logger\\LoggerConfiguration'] ?? $this->getLoggerConfigurationService())->getMaxFiles(), ($this->services['PrestaShop\\Module\\PrestashopCheckout\\Logger\\LoggerConfiguration'] ?? $this->getLoggerConfigurationService())->getLevel());
+        return $this->services['PrestaShop\\Module\\PrestashopCheckout\\Logger\\LoggerHandlerFactory'] = new \PrestaShop\Module\PrestashopCheckout\Logger\LoggerHandlerFactory(($this->services['PrestaShop\\Module\\PrestashopCheckout\\Logger\\LoggerDirectory'] ?? ($this->services['PrestaShop\\Module\\PrestashopCheckout\\Logger\\LoggerDirectory'] = new \PrestaShop\Module\PrestashopCheckout\Logger\LoggerDirectory('8.1.7', '/home/justine/Documents/md/prestashop')))->getPath(), ($this->services['PrestaShop\\Module\\PrestashopCheckout\\Logger\\LoggerFilename'] ?? $this->getLoggerFilenameService())->get(), ($this->services['PrestaShop\\Module\\PrestashopCheckout\\Logger\\LoggerConfiguration'] ?? $this->getLoggerConfigurationService())->getMaxFiles(), ($this->services['PrestaShop\\Module\\PrestashopCheckout\\Logger\\LoggerConfiguration'] ?? $this->getLoggerConfigurationService())->getLevel());
     }
 
     /**
@@ -3931,16 +3931,16 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
         $c = new \Doctrine\Persistence\Mapping\Driver\MappingDriverChain();
 
         $d = ($this->services['annotation_reader'] ?? ($this->services['annotation_reader'] = new \Doctrine\Common\Annotations\AnnotationReader()));
-        $e = new \Doctrine\ORM\Mapping\Driver\AnnotationDriver($d, [0 => '/opt/lampp/htdocs/prestashop/modules/productcomments/src/Entity']);
-        $e->addExcludePaths([0 => '/opt/lampp/htdocs/prestashop/modules/productcomments/src/Entity/index.php']);
-        $f = new \Doctrine\ORM\Mapping\Driver\AnnotationDriver($d, [0 => '/opt/lampp/htdocs/prestashop/modules/ps_checkout/src/Entity']);
-        $f->addExcludePaths([0 => '/opt/lampp/htdocs/prestashop/modules/ps_checkout/src/Entity/index.php']);
-        $g = new \Doctrine\ORM\Mapping\Driver\AnnotationDriver($d, [0 => '/opt/lampp/htdocs/prestashop/modules/psxdesign/src/Entity']);
-        $g->addExcludePaths([0 => '/opt/lampp/htdocs/prestashop/modules/psxdesign/src/Entity/index.php']);
-        $h = new \Doctrine\ORM\Mapping\Driver\AnnotationDriver($d, [0 => '/opt/lampp/htdocs/prestashop/modules/ps_accounts/src/Entity']);
-        $h->addExcludePaths([0 => '/opt/lampp/htdocs/prestashop/modules/ps_accounts/src/Entity/index.php']);
+        $e = new \Doctrine\ORM\Mapping\Driver\AnnotationDriver($d, [0 => '/home/justine/Documents/md/prestashop/modules/productcomments/src/Entity']);
+        $e->addExcludePaths([0 => '/home/justine/Documents/md/prestashop/modules/productcomments/src/Entity/index.php']);
+        $f = new \Doctrine\ORM\Mapping\Driver\AnnotationDriver($d, [0 => '/home/justine/Documents/md/prestashop/modules/ps_checkout/src/Entity']);
+        $f->addExcludePaths([0 => '/home/justine/Documents/md/prestashop/modules/ps_checkout/src/Entity/index.php']);
+        $g = new \Doctrine\ORM\Mapping\Driver\AnnotationDriver($d, [0 => '/home/justine/Documents/md/prestashop/modules/psxdesign/src/Entity']);
+        $g->addExcludePaths([0 => '/home/justine/Documents/md/prestashop/modules/psxdesign/src/Entity/index.php']);
+        $h = new \Doctrine\ORM\Mapping\Driver\AnnotationDriver($d, [0 => '/home/justine/Documents/md/prestashop/modules/ps_accounts/src/Entity']);
+        $h->addExcludePaths([0 => '/home/justine/Documents/md/prestashop/modules/ps_accounts/src/Entity/index.php']);
 
-        $c->addDriver(new \Doctrine\ORM\Mapping\Driver\AnnotationDriver($d, [0 => '/opt/lampp/htdocs/prestashop/src/PrestaShopBundle/Entity']), 'PrestaShop');
+        $c->addDriver(new \Doctrine\ORM\Mapping\Driver\AnnotationDriver($d, [0 => '/home/justine/Documents/md/prestashop/src/PrestaShopBundle/Entity']), 'PrestaShop');
         $c->addDriver($e, 'PrestaShop\\Module\\ProductComment\\Entity');
         $c->addDriver($f, 'PrestaShop\\Module\\PrestashopCheckout\\Entity');
         $c->addDriver($g, 'PrestaShop\\Module\\PsxDesign\\Entity');
@@ -3951,7 +3951,7 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
         $a->setQueryCache($b);
         $a->setResultCache($b);
         $a->setMetadataDriverImpl($c);
-        $a->setProxyDir('/opt/lampp/htdocs/prestashop/var/cache/prod//doctrine/orm/Proxies');
+        $a->setProxyDir('/home/justine/Documents/md/prestashop/var/cache/prod//doctrine/orm/Proxies');
         $a->setProxyNamespace('Proxies');
         $a->setAutoGenerateProxyClasses(false);
         $a->setClassMetadataFactoryName('Doctrine\\ORM\\Mapping\\ClassMetadataFactory');
@@ -4170,7 +4170,7 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
      */
     protected function getPrestashop_Adapter_Module_Repository_ModuleRepositoryService()
     {
-        return $this->services['prestashop.adapter.module.repository.module_repository'] = new \PrestaShop\PrestaShop\Adapter\Module\Repository\ModuleRepository('/opt/lampp/htdocs/prestashop', '/opt/lampp/htdocs/prestashop/modules/');
+        return $this->services['prestashop.adapter.module.repository.module_repository'] = new \PrestaShop\PrestaShop\Adapter\Module\Repository\ModuleRepository('/home/justine/Documents/md/prestashop', '/home/justine/Documents/md/prestashop/modules/');
     }
 
     /**
@@ -4338,7 +4338,7 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
      */
     protected function getPrestashop_Core_Localization_Cldr_Cache_AdapterService()
     {
-        return $this->services['prestashop.core.localization.cldr.cache.adapter'] = new \Symfony\Component\Cache\Adapter\FilesystemAdapter('CLDR', 0, '/opt/lampp/htdocs/prestashop/var/cache/prod//localization');
+        return $this->services['prestashop.core.localization.cldr.cache.adapter'] = new \Symfony\Component\Cache\Adapter\FilesystemAdapter('CLDR', 0, '/home/justine/Documents/md/prestashop/var/cache/prod//localization');
     }
 
     /**
@@ -4348,7 +4348,7 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
      */
     protected function getPrestashop_Core_Localization_Cldr_Datalayer_LocaleCacheService()
     {
-        $this->services['prestashop.core.localization.cldr.datalayer.locale_cache'] = $instance = new \PrestaShop\PrestaShop\Core\Localization\CLDR\DataLayer\LocaleCache(($this->services['prestashop.core.localization.cldr.cache.adapter'] ?? ($this->services['prestashop.core.localization.cldr.cache.adapter'] = new \Symfony\Component\Cache\Adapter\FilesystemAdapter('CLDR', 0, '/opt/lampp/htdocs/prestashop/var/cache/prod//localization'))));
+        $this->services['prestashop.core.localization.cldr.datalayer.locale_cache'] = $instance = new \PrestaShop\PrestaShop\Core\Localization\CLDR\DataLayer\LocaleCache(($this->services['prestashop.core.localization.cldr.cache.adapter'] ?? ($this->services['prestashop.core.localization.cldr.cache.adapter'] = new \Symfony\Component\Cache\Adapter\FilesystemAdapter('CLDR', 0, '/home/justine/Documents/md/prestashop/var/cache/prod//localization'))));
 
         $instance->setLowerLayer(($this->services['prestashop.core.localization.cldr.datalayer.locale_reference'] ?? $this->getPrestashop_Core_Localization_Cldr_Datalayer_LocaleReferenceService()));
 
@@ -4504,7 +4504,7 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
      */
     protected function getPrestashop_Translation_TranslatorLanguageLoaderService()
     {
-        return $this->services['prestashop.translation.translator_language_loader'] = new \PrestaShopBundle\Translation\TranslatorLanguageLoader(($this->services['prestashop.adapter.module.repository.module_repository'] ?? ($this->services['prestashop.adapter.module.repository.module_repository'] = new \PrestaShop\PrestaShop\Adapter\Module\Repository\ModuleRepository('/opt/lampp/htdocs/prestashop', '/opt/lampp/htdocs/prestashop/modules/'))));
+        return $this->services['prestashop.translation.translator_language_loader'] = new \PrestaShopBundle\Translation\TranslatorLanguageLoader(($this->services['prestashop.adapter.module.repository.module_repository'] ?? ($this->services['prestashop.adapter.module.repository.module_repository'] = new \PrestaShop\PrestaShop\Adapter\Module\Repository\ModuleRepository('/home/justine/Documents/md/prestashop', '/home/justine/Documents/md/prestashop/modules/'))));
     }
 
     /**
@@ -4604,7 +4604,7 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
      */
     protected function getPsCheckout_Cache_Paypal_CaptureService()
     {
-        return $this->services['ps_checkout.cache.paypal.capture'] = new \Symfony\Component\Cache\Simple\ChainCache([0 => new \Symfony\Component\Cache\Simple\ArrayCache(), 1 => new \Symfony\Component\Cache\Simple\FilesystemCache('paypal-capture', 3600, ($this->services['PrestaShop\\ModuleLibCacheDirectoryProvider\\Cache\\CacheDirectoryProvider'] ?? ($this->services['PrestaShop\\ModuleLibCacheDirectoryProvider\\Cache\\CacheDirectoryProvider'] = new \PrestaShop\ModuleLibCacheDirectoryProvider\Cache\CacheDirectoryProvider('8.1.7', '/opt/lampp/htdocs/prestashop', false)))->getPath())]);
+        return $this->services['ps_checkout.cache.paypal.capture'] = new \Symfony\Component\Cache\Simple\ChainCache([0 => new \Symfony\Component\Cache\Simple\ArrayCache(), 1 => new \Symfony\Component\Cache\Simple\FilesystemCache('paypal-capture', 3600, ($this->services['PrestaShop\\ModuleLibCacheDirectoryProvider\\Cache\\CacheDirectoryProvider'] ?? ($this->services['PrestaShop\\ModuleLibCacheDirectoryProvider\\Cache\\CacheDirectoryProvider'] = new \PrestaShop\ModuleLibCacheDirectoryProvider\Cache\CacheDirectoryProvider('8.1.7', '/home/justine/Documents/md/prestashop', false)))->getPath())]);
     }
 
     /**
@@ -4614,7 +4614,7 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
      */
     protected function getPsCheckout_Cache_Paypal_OrderService()
     {
-        return $this->services['ps_checkout.cache.paypal.order'] = new \Symfony\Component\Cache\Simple\ChainCache([0 => new \Symfony\Component\Cache\Simple\ArrayCache(), 1 => new \Symfony\Component\Cache\Simple\FilesystemCache('paypal-orders', 3600, ($this->services['PrestaShop\\ModuleLibCacheDirectoryProvider\\Cache\\CacheDirectoryProvider'] ?? ($this->services['PrestaShop\\ModuleLibCacheDirectoryProvider\\Cache\\CacheDirectoryProvider'] = new \PrestaShop\ModuleLibCacheDirectoryProvider\Cache\CacheDirectoryProvider('8.1.7', '/opt/lampp/htdocs/prestashop', false)))->getPath())]);
+        return $this->services['ps_checkout.cache.paypal.order'] = new \Symfony\Component\Cache\Simple\ChainCache([0 => new \Symfony\Component\Cache\Simple\ArrayCache(), 1 => new \Symfony\Component\Cache\Simple\FilesystemCache('paypal-orders', 3600, ($this->services['PrestaShop\\ModuleLibCacheDirectoryProvider\\Cache\\CacheDirectoryProvider'] ?? ($this->services['PrestaShop\\ModuleLibCacheDirectoryProvider\\Cache\\CacheDirectoryProvider'] = new \PrestaShop\ModuleLibCacheDirectoryProvider\Cache\CacheDirectoryProvider('8.1.7', '/home/justine/Documents/md/prestashop', false)))->getPath())]);
     }
 
     /**
@@ -4654,7 +4654,7 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
      */
     protected function getPsCheckout_LoggerService()
     {
-        return $this->services['ps_checkout.logger'] = ($this->services['PrestaShop\\Module\\PrestashopCheckout\\Logger\\LoggerFactory'] ?? $this->getLoggerFactoryService())->build(($this->services['PrestaShop\\Module\\PrestashopCheckout\\Logger\\LoggerDirectory'] ?? ($this->services['PrestaShop\\Module\\PrestashopCheckout\\Logger\\LoggerDirectory'] = new \PrestaShop\Module\PrestashopCheckout\Logger\LoggerDirectory('8.1.7', '/opt/lampp/htdocs/prestashop'))));
+        return $this->services['ps_checkout.logger'] = ($this->services['PrestaShop\\Module\\PrestashopCheckout\\Logger\\LoggerFactory'] ?? $this->getLoggerFactoryService())->build(($this->services['PrestaShop\\Module\\PrestashopCheckout\\Logger\\LoggerDirectory'] ?? ($this->services['PrestaShop\\Module\\PrestashopCheckout\\Logger\\LoggerDirectory'] = new \PrestaShop\Module\PrestashopCheckout\Logger\LoggerDirectory('8.1.7', '/home/justine/Documents/md/prestashop'))));
     }
 
     /**
@@ -5209,12 +5209,12 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
             'kernel.bundles' => [
 
             ],
-            'kernel.root_dir' => '/opt/lampp/htdocs/prestashop/app',
-            'kernel.project_dir' => '/opt/lampp/htdocs/prestashop',
+            'kernel.root_dir' => '/home/justine/Documents/md/prestashop/app',
+            'kernel.project_dir' => '/home/justine/Documents/md/prestashop',
             'kernel.name' => 'app',
             'kernel.debug' => false,
             'kernel.environment' => 'prod',
-            'kernel.cache_dir' => '/opt/lampp/htdocs/prestashop/var/cache/prod/',
+            'kernel.cache_dir' => '/home/justine/Documents/md/prestashop/var/cache/prod/',
             'kernel.active_modules' => [
                 0 => 'ps_linklist',
                 1 => 'blockreassurance',
@@ -5295,8 +5295,9 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
                 76 => 'ps_mbo',
                 77 => 'ps_themecusto',
                 78 => 'ps_wirepayment',
+                79 => 'pscartdropdown',
             ],
-            'ps_cache_dir' => '/opt/lampp/htdocs/prestashop/var/cache/prod/',
+            'ps_cache_dir' => '/home/justine/Documents/md/prestashop/var/cache/prod/',
             'mail_themes_uri' => '/mails/themes',
             'doctrine.dbal.logger.chain.class' => 'Doctrine\\DBAL\\Logging\\LoggerChain',
             'doctrine.dbal.logger.profiling.class' => 'Doctrine\\DBAL\\Logging\\DebugStack',
@@ -5366,7 +5367,7 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
             'doctrine.orm.second_level_cache.cache_configuration.class' => 'Doctrine\\ORM\\Cache\\CacheConfiguration',
             'doctrine.orm.second_level_cache.regions_configuration.class' => 'Doctrine\\ORM\\Cache\\RegionsConfiguration',
             'doctrine.orm.auto_generate_proxy_classes' => false,
-            'doctrine.orm.proxy_dir' => '/opt/lampp/htdocs/prestashop/var/cache/prod//doctrine/orm/Proxies',
+            'doctrine.orm.proxy_dir' => '/home/justine/Documents/md/prestashop/var/cache/prod//doctrine/orm/Proxies',
             'doctrine.orm.proxy_namespace' => 'Proxies',
             'psshipping.sentry_dsn' => 'https://78c41abf489931010a3a83cacc14926b@o298402.ingest.sentry.io/4505906299600896',
             'psshipping.sentry_env' => 'production',

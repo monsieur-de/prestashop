@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-09-26 15:25:28
+/* Smarty version 4.3.4, created on 2024-09-27 09:49:04
   from 'module:ps_customeraccountlinksps_customeraccountlinks.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_66f560c8017623_80809268',
+  'unifunc' => 'content_66f663704c8bc1_14980113',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -18,13 +18,13 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_66f560c8017623_80809268 (Smarty_Internal_Template $_smarty_tpl) {
+function content_66f663704c8bc1_14980113 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, array (
   'renderLogo' => 
   array (
     'compiled_filepath' => '/home/justine/Documents/md/prestashop/var/cache/prod/smarty/compile/classiclayouts_layout_full_width_tpl/db/41/fa/db41fa2125b2206c35b33641b79acbd8575be0cf_2.file.helpers.tpl.php',
     'uid' => 'db41fa2125b2206c35b33641b79acbd8575be0cf',
-    'call_name' => 'smarty_template_function_renderLogo_82113465466f560c7eabbf4_97116353',
+    'call_name' => 'smarty_template_function_renderLogo_213230554766f66370426491_50193616',
   ),
 ));
 ?>

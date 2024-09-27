@@ -1,0 +1,230 @@
+/**
+ * Copyright since 2007 PrestaShop SA and Contributors
+ * PrestaShop is an International Registered Trademark & Property of PrestaShop SA
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License version 3.0
+ * that is bundled with this package in the file LICENSE.md.
+ * It is also available through the world-wide-web at this URL:
+ * https://opensource.org/licenses/AFL-3.0
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@prestashop.com so we can send you a copy immediately.
+ *
+ * @author    PrestaShop SA and Contributors <contact@prestashop.com>
+ * @copyright Since 2007 PrestaShop SA and Contributors
+ * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License version 3.0
+ */
+ #blockcartpreview {
+     color: white;
+     position: relative !important;
+     float: right;
+ }
+.btnviewcart {
+    border-radius: 4px !important;
+}
+
+.checkoutnow {
+    padding-top: 10px;
+    border-radius: 4px !important;
+}
+
+.btncheckout {
+    border-radius: 4px !important;
+}
+.btncheckout.btn-primary {
+    box-shadow: 2px 2px 4px 0 rgba(0,0,0,.2) !important;
+    text-transform: uppercase !important;
+    font-weight: 600 !important;
+    padding: .5rem 1.25rem !important;
+    font-family: Noto Sans,sans-serif;
+}
+.btncheckout {
+    font-size: 1rem !important;
+}
+.btnviewcart {
+    font-size: 1rem !important;
+}
+.btnviewcart.btn-primary {
+    box-shadow: 2px 2px 4px 0 rgba(0,0,0,.2) !important;
+    text-transform: uppercase !important;
+    font-weight: 600 !important;
+    padding: .5rem 1.25rem !important;
+    font-family: Noto Sans,sans-serif;
+}
+.labelqty {
+    margin-top: 30px;
+    margin-left: -20px;
+    color: #363a41;
+}
+#total_block_preview {
+    -moz-box-shadow: 0px -3px 6px 1px #ccc;
+    -webkit-box-shadow: 0px -3px 6px 1px #ccc;
+    -o-box-shadow: 0px -3px 6px 1px #ccc;
+    box-shadow: 0px -3px 6px 1px #ccc;
+    /* overflow: hidden; */
+    padding: 1.50rem !important;
+
+}
+.productseparator {
+    border-top: 0 !important;
+    width: 400px;
+    height: 1px;
+    border: solid 1px #ebebeb !important;
+}
+
+.product-price {
+    font-size: 1rem !important;
+    font-family: inherit !important;
+    font-weight: 700 !important;
+    line-height: 1.1 !important;
+    color: #363a41;
+}
+.product-name {
+    font-size: 14px !important;
+    font-weight: bold;
+    color: #363a41;
+}
+.attributes {
+    font-size: 1rem !important;
+}
+ .live-preview {
+     background-color: #fff;
+     top: 42px;
+     width: 480px;
+     -moz-box-shadow: 3px 1px 6px 0px #ccc;
+     -webkit-box-shadow: 3px 1px 6px 0px #ccc;
+     -o-box-shadow: 3px 1px 6px 0px #ccc;
+     box-shadow: 3px 1px 6px 0px #ccc;
+     position: absolute !important;
+     right: 0px;
+ }
+  .cartdrop-overview {
+     overflow: auto;
+    max-height: 450px;
+    padding-top: 15px;
+
+ }
+ /* width */
+.cartdrop-overview::-webkit-scrollbar {
+     width: 3px;
+ }
+
+ /* Track */
+.cartdrop-overview::-webkit-scrollbar-track {
+     background: #ccc;
+     border: 0px none #666666;
+     border-radius: 50px;
+ }
+
+ /* Handle */
+ .cartdrop-overview::-webkit-scrollbar-thumb {
+     background: #888;
+     border: 0px none #666666;
+     border-radius: 50px;
+ }
+
+ /* Handle on hover */
+ .cartdrop-overview::-webkit-scrollbar-thumb:hover {
+     background: transparent;
+ }
+
+ .cartdrop-overview::-webkit-scrollbar-corner {
+   background: #ccc;
+ }
+ .remove-from-cart {
+     color: #c3c3c3 !important;
+ }
+.notransition {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+}
+
+.addons-title {
+    margin: 1em 0;
+    padding-left: 20px;
+    /* background-color: #e8faff; */
+    border-left: 4px solid #2eacce;
+    font-size: 18px !important;
+    text-decoration: underline;
+}
+
+.addons-number-fields {
+    display: block;
+    width: 22%;
+    height: 31px;
+    padding: 6px 8px;
+    font-size: 12px;
+    line-height: 1.42857;
+    color: #555;
+    background-color: #F5F8F9;
+    background-image: none;
+    border: 1px solid #C7D6DB;
+    border-radius: 3px;
+    -webkit-transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+    -o-transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s
+}
+
+ .productimage {
+    width: 70px;
+    height: auto;
+    padding-top: 10px;
+ }
+.addons-inline-block {
+    display: inline-block;
+}
+
+.addons-text {
+    padding: 14px;
+    font-size: 13px;
+}
+
+.addons-hide {
+    display: none;
+}
+
+.title {
+    padding-bottom: 10px;
+}
+
+.labelbutton  {
+    padding-right: 15px;
+}
+
+.panel-footer {
+    margin-top: 125px !important;
+}
+
+.shopping-cart {
+  vertical-align: -6px !important;
+  font-size: 22px !important;
+  margin-right: 3px !important;
+}
+.checkorder {
+    vertical-align: -6px !important;
+	margin-right: 3px !important;
+	font-size: 22px !important;
+}
+
+.attributes {
+    color: #7a7a7a;
+    font-size: 13px;
+    line-height: 1.25em;
+}
+@media only screen and (max-width: 40em) {
+    .live-preview {
+        width: 430px !important;
+    }
+    .test {
+        height: 660px !important;
+    }
+}
+@media only screen and (max-width: 1366px) {
+    .test {
+        height: 660px !important;
+    }
+}
