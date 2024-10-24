@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>pscartdropdown</name>
+    <displayName><![CDATA[Panier D&eacute;roulant]]></displayName>
+    <version><![CDATA[1.1.1]]></version>
+    <description><![CDATA[Ce module ajoute un panier d&eacute;roulant &agrave; votre boutique sur l&#039;icon panier de votre en-t&ecirc;te, pour afficher un r&eacute;sum&eacute; de leur contenu panier &agrave; vos clients et les inciter &agrave; finaliser leur comande. ]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[administration]]></tab>
+	<confirmUninstall><![CDATA[Etes-vous sûr de vouloir désinstaller ce module ?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+</module>

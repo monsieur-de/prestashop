@@ -414,8 +414,6 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
             'prestashop.core.string.character_cleaner' => 'getPrestashop_Core_String_CharacterCleanerService',
             'prestashop.database.naming_strategy' => 'getPrestashop_Database_NamingStrategyService',
             'prestashop.translation.translator_language_loader' => 'getPrestashop_Translation_TranslatorLanguageLoaderService',
-            'product_comment_criterion_repository' => 'getProductCommentCriterionRepositoryService',
-            'product_comment_repository' => 'getProductCommentRepositoryService',
             'ps_accounts.context' => 'getPsAccounts_ContextService',
             'ps_accounts.facade' => 'getPsAccounts_FacadeService',
             'ps_accounts.installer' => 'getPsAccounts_InstallerService',
@@ -629,7 +627,7 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
      */
     protected function getCacheDirectoryProviderService()
     {
-        return $this->services['PrestaShop\\ModuleLibCacheDirectoryProvider\\Cache\\CacheDirectoryProvider'] = new \PrestaShop\ModuleLibCacheDirectoryProvider\Cache\CacheDirectoryProvider('8.1.7', '/home/justine/Documents/md/prestashop', false);
+        return $this->services['PrestaShop\\ModuleLibCacheDirectoryProvider\\Cache\\CacheDirectoryProvider'] = new \PrestaShop\ModuleLibCacheDirectoryProvider\Cache\CacheDirectoryProvider('8.1.7', 'C:\\Users\\nihmo\\prestashop', false);
     }
 
     /**
@@ -971,7 +969,7 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
      */
     protected function getLoggerDirectoryService()
     {
-        return $this->services['PrestaShop\\Module\\PrestashopCheckout\\Logger\\LoggerDirectory'] = new \PrestaShop\Module\PrestashopCheckout\Logger\LoggerDirectory('8.1.7', '/home/justine/Documents/md/prestashop');
+        return $this->services['PrestaShop\\Module\\PrestashopCheckout\\Logger\\LoggerDirectory'] = new \PrestaShop\Module\PrestashopCheckout\Logger\LoggerDirectory('8.1.7', 'C:\\Users\\nihmo\\prestashop');
     }
 
     /**
@@ -1001,7 +999,7 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
      */
     protected function getLoggerHandlerFactoryService()
     {
-        return $this->services['PrestaShop\\Module\\PrestashopCheckout\\Logger\\LoggerHandlerFactory'] = new \PrestaShop\Module\PrestashopCheckout\Logger\LoggerHandlerFactory(($this->services['PrestaShop\\Module\\PrestashopCheckout\\Logger\\LoggerDirectory'] ?? ($this->services['PrestaShop\\Module\\PrestashopCheckout\\Logger\\LoggerDirectory'] = new \PrestaShop\Module\PrestashopCheckout\Logger\LoggerDirectory('8.1.7', '/home/justine/Documents/md/prestashop')))->getPath(), ($this->services['PrestaShop\\Module\\PrestashopCheckout\\Logger\\LoggerFilename'] ?? $this->getLoggerFilenameService())->get(), ($this->services['PrestaShop\\Module\\PrestashopCheckout\\Logger\\LoggerConfiguration'] ?? $this->getLoggerConfigurationService())->getMaxFiles(), ($this->services['PrestaShop\\Module\\PrestashopCheckout\\Logger\\LoggerConfiguration'] ?? $this->getLoggerConfigurationService())->getLevel());
+        return $this->services['PrestaShop\\Module\\PrestashopCheckout\\Logger\\LoggerHandlerFactory'] = new \PrestaShop\Module\PrestashopCheckout\Logger\LoggerHandlerFactory(($this->services['PrestaShop\\Module\\PrestashopCheckout\\Logger\\LoggerDirectory'] ?? ($this->services['PrestaShop\\Module\\PrestashopCheckout\\Logger\\LoggerDirectory'] = new \PrestaShop\Module\PrestashopCheckout\Logger\LoggerDirectory('8.1.7', 'C:\\Users\\nihmo\\prestashop')))->getPath(), ($this->services['PrestaShop\\Module\\PrestashopCheckout\\Logger\\LoggerFilename'] ?? $this->getLoggerFilenameService())->get(), ($this->services['PrestaShop\\Module\\PrestashopCheckout\\Logger\\LoggerConfiguration'] ?? $this->getLoggerConfigurationService())->getMaxFiles(), ($this->services['PrestaShop\\Module\\PrestashopCheckout\\Logger\\LoggerConfiguration'] ?? $this->getLoggerConfigurationService())->getLevel());
     }
 
     /**
@@ -3931,27 +3929,24 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
         $c = new \Doctrine\Persistence\Mapping\Driver\MappingDriverChain();
 
         $d = ($this->services['annotation_reader'] ?? ($this->services['annotation_reader'] = new \Doctrine\Common\Annotations\AnnotationReader()));
-        $e = new \Doctrine\ORM\Mapping\Driver\AnnotationDriver($d, [0 => '/home/justine/Documents/md/prestashop/modules/productcomments/src/Entity']);
-        $e->addExcludePaths([0 => '/home/justine/Documents/md/prestashop/modules/productcomments/src/Entity/index.php']);
-        $f = new \Doctrine\ORM\Mapping\Driver\AnnotationDriver($d, [0 => '/home/justine/Documents/md/prestashop/modules/ps_checkout/src/Entity']);
-        $f->addExcludePaths([0 => '/home/justine/Documents/md/prestashop/modules/ps_checkout/src/Entity/index.php']);
-        $g = new \Doctrine\ORM\Mapping\Driver\AnnotationDriver($d, [0 => '/home/justine/Documents/md/prestashop/modules/psxdesign/src/Entity']);
-        $g->addExcludePaths([0 => '/home/justine/Documents/md/prestashop/modules/psxdesign/src/Entity/index.php']);
-        $h = new \Doctrine\ORM\Mapping\Driver\AnnotationDriver($d, [0 => '/home/justine/Documents/md/prestashop/modules/ps_accounts/src/Entity']);
-        $h->addExcludePaths([0 => '/home/justine/Documents/md/prestashop/modules/ps_accounts/src/Entity/index.php']);
+        $e = new \Doctrine\ORM\Mapping\Driver\AnnotationDriver($d, [0 => 'C:\\Users\\nihmo\\prestashop\\modules\\psxdesign\\src\\Entity']);
+        $e->addExcludePaths([0 => 'C:\\Users\\nihmo\\prestashop\\modules\\psxdesign\\src\\Entity/index.php']);
+        $f = new \Doctrine\ORM\Mapping\Driver\AnnotationDriver($d, [0 => 'C:\\Users\\nihmo\\prestashop\\modules\\ps_accounts\\src\\Entity']);
+        $f->addExcludePaths([0 => 'C:\\Users\\nihmo\\prestashop\\modules\\ps_accounts\\src\\Entity/index.php']);
+        $g = new \Doctrine\ORM\Mapping\Driver\AnnotationDriver($d, [0 => 'C:\\Users\\nihmo\\prestashop\\modules\\ps_checkout\\src\\Entity']);
+        $g->addExcludePaths([0 => 'C:\\Users\\nihmo\\prestashop\\modules\\ps_checkout\\src\\Entity/index.php']);
 
-        $c->addDriver(new \Doctrine\ORM\Mapping\Driver\AnnotationDriver($d, [0 => '/home/justine/Documents/md/prestashop/src/PrestaShopBundle/Entity']), 'PrestaShop');
-        $c->addDriver($e, 'PrestaShop\\Module\\ProductComment\\Entity');
-        $c->addDriver($f, 'PrestaShop\\Module\\PrestashopCheckout\\Entity');
-        $c->addDriver($g, 'PrestaShop\\Module\\PsxDesign\\Entity');
-        $c->addDriver($h, 'PrestaShop\\Module\\PsAccounts\\Entity');
+        $c->addDriver(new \Doctrine\ORM\Mapping\Driver\AnnotationDriver($d, [0 => 'C:\\Users\\nihmo\\prestashop\\src\\PrestaShopBundle\\Entity']), 'PrestaShop');
+        $c->addDriver($e, 'PrestaShop\\Module\\PsxDesign\\Entity');
+        $c->addDriver($f, 'PrestaShop\\Module\\PsAccounts\\Entity');
+        $c->addDriver($g, 'PrestaShop\\Module\\PrestashopCheckout\\Entity');
 
         $a->setEntityNamespaces(['PrestaShopBundle\\Entity' => 'PrestaShop']);
         $a->setMetadataCache($b);
         $a->setQueryCache($b);
         $a->setResultCache($b);
         $a->setMetadataDriverImpl($c);
-        $a->setProxyDir('/home/justine/Documents/md/prestashop/var/cache/prod//doctrine/orm/Proxies');
+        $a->setProxyDir('C:\\Users\\nihmo\\prestashop/var/cache/prod\\/doctrine/orm/Proxies');
         $a->setProxyNamespace('Proxies');
         $a->setAutoGenerateProxyClasses(false);
         $a->setClassMetadataFactoryName('Doctrine\\ORM\\Mapping\\ClassMetadataFactory');
@@ -3961,10 +3956,9 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
         $a->setEntityListenerResolver(new \Doctrine\Bundle\DoctrineBundle\Mapping\ContainerEntityListenerResolver($this));
         $a->setRepositoryFactory(new \Doctrine\Bundle\DoctrineBundle\Repository\ContainerRepositoryFactory(new \Symfony\Component\DependencyInjection\ServiceLocator([])));
         $a->addCustomStringFunction('regexp', 'DoctrineExtensions\\Query\\Mysql\\Regexp');
-        $a->addEntityNamespace('Moduleproductcomments', 'PrestaShop\\Module\\ProductComment\\Entity');
-        $a->addEntityNamespace('ModulepsCheckout', 'PrestaShop\\Module\\PrestashopCheckout\\Entity');
         $a->addEntityNamespace('Modulepsxdesign', 'PrestaShop\\Module\\PsxDesign\\Entity');
         $a->addEntityNamespace('ModulepsAccounts', 'PrestaShop\\Module\\PsAccounts\\Entity');
+        $a->addEntityNamespace('ModulepsCheckout', 'PrestaShop\\Module\\PrestashopCheckout\\Entity');
 
         $this->services['doctrine.orm.default_entity_manager'] = $instance = \Doctrine\ORM\EntityManager::create(($this->services['doctrine.dbal.default_connection'] ?? $this->getDoctrine_Dbal_DefaultConnectionService()), $a);
 
@@ -4170,7 +4164,7 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
      */
     protected function getPrestashop_Adapter_Module_Repository_ModuleRepositoryService()
     {
-        return $this->services['prestashop.adapter.module.repository.module_repository'] = new \PrestaShop\PrestaShop\Adapter\Module\Repository\ModuleRepository('/home/justine/Documents/md/prestashop', '/home/justine/Documents/md/prestashop/modules/');
+        return $this->services['prestashop.adapter.module.repository.module_repository'] = new \PrestaShop\PrestaShop\Adapter\Module\Repository\ModuleRepository('C:\\Users\\nihmo\\prestashop', 'C:\\Users\\nihmo\\prestashop/modules/');
     }
 
     /**
@@ -4338,7 +4332,7 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
      */
     protected function getPrestashop_Core_Localization_Cldr_Cache_AdapterService()
     {
-        return $this->services['prestashop.core.localization.cldr.cache.adapter'] = new \Symfony\Component\Cache\Adapter\FilesystemAdapter('CLDR', 0, '/home/justine/Documents/md/prestashop/var/cache/prod//localization');
+        return $this->services['prestashop.core.localization.cldr.cache.adapter'] = new \Symfony\Component\Cache\Adapter\FilesystemAdapter('CLDR', 0, 'C:\\Users\\nihmo\\prestashop/var/cache/prod\\/localization');
     }
 
     /**
@@ -4348,7 +4342,7 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
      */
     protected function getPrestashop_Core_Localization_Cldr_Datalayer_LocaleCacheService()
     {
-        $this->services['prestashop.core.localization.cldr.datalayer.locale_cache'] = $instance = new \PrestaShop\PrestaShop\Core\Localization\CLDR\DataLayer\LocaleCache(($this->services['prestashop.core.localization.cldr.cache.adapter'] ?? ($this->services['prestashop.core.localization.cldr.cache.adapter'] = new \Symfony\Component\Cache\Adapter\FilesystemAdapter('CLDR', 0, '/home/justine/Documents/md/prestashop/var/cache/prod//localization'))));
+        $this->services['prestashop.core.localization.cldr.datalayer.locale_cache'] = $instance = new \PrestaShop\PrestaShop\Core\Localization\CLDR\DataLayer\LocaleCache(($this->services['prestashop.core.localization.cldr.cache.adapter'] ?? ($this->services['prestashop.core.localization.cldr.cache.adapter'] = new \Symfony\Component\Cache\Adapter\FilesystemAdapter('CLDR', 0, 'C:\\Users\\nihmo\\prestashop/var/cache/prod\\/localization'))));
 
         $instance->setLowerLayer(($this->services['prestashop.core.localization.cldr.datalayer.locale_reference'] ?? $this->getPrestashop_Core_Localization_Cldr_Datalayer_LocaleReferenceService()));
 
@@ -4504,27 +4498,7 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
      */
     protected function getPrestashop_Translation_TranslatorLanguageLoaderService()
     {
-        return $this->services['prestashop.translation.translator_language_loader'] = new \PrestaShopBundle\Translation\TranslatorLanguageLoader(($this->services['prestashop.adapter.module.repository.module_repository'] ?? ($this->services['prestashop.adapter.module.repository.module_repository'] = new \PrestaShop\PrestaShop\Adapter\Module\Repository\ModuleRepository('/home/justine/Documents/md/prestashop', '/home/justine/Documents/md/prestashop/modules/'))));
-    }
-
-    /**
-     * Gets the public 'product_comment_criterion_repository' shared service.
-     *
-     * @return \PrestaShop\Module\ProductComment\Repository\ProductCommentCriterionRepository
-     */
-    protected function getProductCommentCriterionRepositoryService()
-    {
-        return $this->services['product_comment_criterion_repository'] = new \PrestaShop\Module\ProductComment\Repository\ProductCommentCriterionRepository(($this->services['doctrine'] ?? $this->getDoctrineService()), ($this->services['doctrine.dbal.default_connection'] ?? $this->getDoctrine_Dbal_DefaultConnectionService()), 'ps_');
-    }
-
-    /**
-     * Gets the public 'product_comment_repository' shared service.
-     *
-     * @return \PrestaShop\Module\ProductComment\Repository\ProductCommentRepository
-     */
-    protected function getProductCommentRepositoryService()
-    {
-        return $this->services['product_comment_repository'] = new \PrestaShop\Module\ProductComment\Repository\ProductCommentRepository(($this->services['doctrine'] ?? $this->getDoctrineService()), ($this->services['doctrine.dbal.default_connection'] ?? $this->getDoctrine_Dbal_DefaultConnectionService()), 'ps_', ($this->services['PrestaShop\\PrestaShop\\Adapter\\Configuration'] ?? ($this->services['PrestaShop\\PrestaShop\\Adapter\\Configuration'] = new \PrestaShop\PrestaShop\Adapter\Configuration()))->get("PRODUCT_COMMENTS_ALLOW_GUESTS"), ($this->services['PrestaShop\\PrestaShop\\Adapter\\Configuration'] ?? ($this->services['PrestaShop\\PrestaShop\\Adapter\\Configuration'] = new \PrestaShop\PrestaShop\Adapter\Configuration()))->get("PRODUCT_COMMENTS_MINIMAL_TIME"));
+        return $this->services['prestashop.translation.translator_language_loader'] = new \PrestaShopBundle\Translation\TranslatorLanguageLoader(($this->services['prestashop.adapter.module.repository.module_repository'] ?? ($this->services['prestashop.adapter.module.repository.module_repository'] = new \PrestaShop\PrestaShop\Adapter\Module\Repository\ModuleRepository('C:\\Users\\nihmo\\prestashop', 'C:\\Users\\nihmo\\prestashop/modules/'))));
     }
 
     /**
@@ -4604,7 +4578,7 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
      */
     protected function getPsCheckout_Cache_Paypal_CaptureService()
     {
-        return $this->services['ps_checkout.cache.paypal.capture'] = new \Symfony\Component\Cache\Simple\ChainCache([0 => new \Symfony\Component\Cache\Simple\ArrayCache(), 1 => new \Symfony\Component\Cache\Simple\FilesystemCache('paypal-capture', 3600, ($this->services['PrestaShop\\ModuleLibCacheDirectoryProvider\\Cache\\CacheDirectoryProvider'] ?? ($this->services['PrestaShop\\ModuleLibCacheDirectoryProvider\\Cache\\CacheDirectoryProvider'] = new \PrestaShop\ModuleLibCacheDirectoryProvider\Cache\CacheDirectoryProvider('8.1.7', '/home/justine/Documents/md/prestashop', false)))->getPath())]);
+        return $this->services['ps_checkout.cache.paypal.capture'] = new \Symfony\Component\Cache\Simple\ChainCache([0 => new \Symfony\Component\Cache\Simple\ArrayCache(), 1 => new \Symfony\Component\Cache\Simple\FilesystemCache('paypal-capture', 3600, ($this->services['PrestaShop\\ModuleLibCacheDirectoryProvider\\Cache\\CacheDirectoryProvider'] ?? ($this->services['PrestaShop\\ModuleLibCacheDirectoryProvider\\Cache\\CacheDirectoryProvider'] = new \PrestaShop\ModuleLibCacheDirectoryProvider\Cache\CacheDirectoryProvider('8.1.7', 'C:\\Users\\nihmo\\prestashop', false)))->getPath())]);
     }
 
     /**
@@ -4614,7 +4588,7 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
      */
     protected function getPsCheckout_Cache_Paypal_OrderService()
     {
-        return $this->services['ps_checkout.cache.paypal.order'] = new \Symfony\Component\Cache\Simple\ChainCache([0 => new \Symfony\Component\Cache\Simple\ArrayCache(), 1 => new \Symfony\Component\Cache\Simple\FilesystemCache('paypal-orders', 3600, ($this->services['PrestaShop\\ModuleLibCacheDirectoryProvider\\Cache\\CacheDirectoryProvider'] ?? ($this->services['PrestaShop\\ModuleLibCacheDirectoryProvider\\Cache\\CacheDirectoryProvider'] = new \PrestaShop\ModuleLibCacheDirectoryProvider\Cache\CacheDirectoryProvider('8.1.7', '/home/justine/Documents/md/prestashop', false)))->getPath())]);
+        return $this->services['ps_checkout.cache.paypal.order'] = new \Symfony\Component\Cache\Simple\ChainCache([0 => new \Symfony\Component\Cache\Simple\ArrayCache(), 1 => new \Symfony\Component\Cache\Simple\FilesystemCache('paypal-orders', 3600, ($this->services['PrestaShop\\ModuleLibCacheDirectoryProvider\\Cache\\CacheDirectoryProvider'] ?? ($this->services['PrestaShop\\ModuleLibCacheDirectoryProvider\\Cache\\CacheDirectoryProvider'] = new \PrestaShop\ModuleLibCacheDirectoryProvider\Cache\CacheDirectoryProvider('8.1.7', 'C:\\Users\\nihmo\\prestashop', false)))->getPath())]);
     }
 
     /**
@@ -4654,7 +4628,7 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
      */
     protected function getPsCheckout_LoggerService()
     {
-        return $this->services['ps_checkout.logger'] = ($this->services['PrestaShop\\Module\\PrestashopCheckout\\Logger\\LoggerFactory'] ?? $this->getLoggerFactoryService())->build(($this->services['PrestaShop\\Module\\PrestashopCheckout\\Logger\\LoggerDirectory'] ?? ($this->services['PrestaShop\\Module\\PrestashopCheckout\\Logger\\LoggerDirectory'] = new \PrestaShop\Module\PrestashopCheckout\Logger\LoggerDirectory('8.1.7', '/home/justine/Documents/md/prestashop'))));
+        return $this->services['ps_checkout.logger'] = ($this->services['PrestaShop\\Module\\PrestashopCheckout\\Logger\\LoggerFactory'] ?? $this->getLoggerFactoryService())->build(($this->services['PrestaShop\\Module\\PrestashopCheckout\\Logger\\LoggerDirectory'] ?? ($this->services['PrestaShop\\Module\\PrestashopCheckout\\Logger\\LoggerDirectory'] = new \PrestaShop\Module\PrestashopCheckout\Logger\LoggerDirectory('8.1.7', 'C:\\Users\\nihmo\\prestashop'))));
     }
 
     /**
@@ -5202,102 +5176,115 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
             'cookie_key' => 'v5xsuB7iMPVEfbMKsGvmiJgsWQukWCsCCJMPIWrMOzpj660Zcr52EdfI6cB47zTq',
             'cookie_iv' => 'Zy4VigHV1kEvhZ90wNQyNsJay6Cy0RbN',
             'new_cookie_key' => 'def000006b0583c9f5bd7bb154cac0fad6dfc851669188607e55617c8b2a18694884857b7cdb8b6206a4fd34cd7b7c0d5f5bc24be84b61c0545ca24f721e2f58a38d2615',
-            'api_public_key' => '-----BEGIN PUBLIC KEY-----'."\n".'MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1KUxcTuC03WATdSykcYV'."\n".'o1u66oKWd1bUNP+3RxTYe+dJRWJ0NnDzylVCzd+s30md7t6HeppZ+mn5/bIDbkgP'."\n".'HgboTRs1B3JjZNG/N4epRkaw8lpVar+LxK19emWdqHEq+L9pBaaRpb4ior2dDKRT'."\n".'CxB76+LyAlGUX3S1qSy7euzBLCS7u3wDlA1A6tC6cK2fRH1lueWOmIque/Hu1zMo'."\n".'Nqnqt90u3Lm3xeda5ME47mhV0AmTTQvjO91FsZ1LRCMx956Cc4M1oUwnIzcqYTVc'."\n".'ASpbG9lyq5M9PC3tWkzwHxQTTcxrmRWHwkvU63q4UlsEM9HpP47Ch2B6WlCnPJ+9'."\n".'twIDAQAB'."\n".'-----END PUBLIC KEY-----'."\n".'',
-            'api_private_key' => '-----BEGIN PRIVATE KEY-----'."\n".'MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDUpTFxO4LTdYBN'."\n".'1LKRxhWjW7rqgpZ3VtQ0/7dHFNh750lFYnQ2cPPKVULN36zfSZ3u3od6mln6afn9'."\n".'sgNuSA8eBuhNGzUHcmNk0b83h6lGRrDyWlVqv4vErX16ZZ2ocSr4v2kFppGlviKi'."\n".'vZ0MpFMLEHvr4vICUZRfdLWpLLt67MEsJLu7fAOUDUDq0LpwrZ9EfWW55Y6Yiq57'."\n".'8e7XMyg2qeq33S7cubfF51rkwTjuaFXQCZNNC+M73UWxnUtEIzH3noJzgzWhTCcj'."\n".'NyphNVwBKlsb2XKrkz08Le1aTPAfFBNNzGuZFYfCS9TrerhSWwQz0ek/jsKHYHpa'."\n".'UKc8n723AgMBAAECggEAP5yPNtVbpJBQ6neHV65PCMhHGSIpitexsY0RsbTdsesV'."\n".'cykppKOTemKZEmcoGr+1/CAbnSSRaCTNwQPAnPv3cb8VPQO3kFu6ug04y47Mp5Y8'."\n".'FrPJO57DW/meQMAnMp1wAmuYKjWS+mbvi4l3crGxmey7dWw1g1YOMaQDN/GGwBWI'."\n".'6K7lVH/0lNrTgznfTDcUvQBNGo76fnc1euBPKiokMcxJZmrnEtbP+7cbx6PdwXKz'."\n".'UtQ1rGnGmdTT5r9NChF9U48GpENeDvuqCcrBr7HU0RdapTxSjDXx1+Yq/Sd9LhcB'."\n".'s1HKMWWYXtF+oz48ZDnhql0GXx54POtwMnX0F2RL2QKBgQD/Laa13VgDUj7HIb5H'."\n".'DKIYBvBbcmk8MlDts499AohZZjcAEp+vnPFhgdDtB5/CQiF2oAoqTOzx3FhRqXYU'."\n".'flHEe34bdS64gWPWD2skgo4JGkQ/7ypV/ltwF3+jHU3/ya89eMyhq05W5px2Tbbs'."\n".'BG4CEAt3SOIPev3BxcTn3jNXPQKBgQDVVHsmZyCUKpI8IBkQczNG8TofBFqbD4nC'."\n".'bUuhyUOAjyCEyOJiv0StMtLp0143fqjf0gawnWkPLSZCyiAjrWE9/iBY89TUolH+'."\n".'dD7IUm5ifnxXNQCYmiWjGVH/jlPFhbFOF0mmjXPpIDBCEzw8XHf/fF0tB3FpcvJR'."\n".'MG3WdrgYAwKBgCqatqDaqd00GCMrMRevtkiIsAy0l3ljdTuapTRb/ePfOwOaGGs7'."\n".'qtl60SUiBrxqSigCJHBXk5/2CBDqWDqntIM3kyCGehx4DfEpddwMqCZA6nA6QDlH'."\n".'VIDsi3TyaZlxVP7Qcmnzrgq4Shs+cnIJc0yI3UE3O/cVs9Rsbqm/4ZaJAoGADziL'."\n".'4N2S0X+IF4oiv624huNHRldFL7MYHSs3Lj/x9QZBR7gdjvYerEzoB47xNfxviCiw'."\n".'GYHhsReDl1hcmq8QNSAgprgfA1zhhMo+gISBI73qmT5K4Jh+/vgbhaReDcXQNMYs'."\n".'lxmYn5WQW+aLcbMXTL9O1pulV+S/rVNLQvYNhIkCgYAxg8mZ198L0REx9aZeGD9K'."\n".'lB35EyAOz9R8Sr8i5R2M7Un7mi4BkazG8mEEcE8U86ASoqHdLV4l8znIyvKziUWB'."\n".'M78OS7aqiBJWWI81nvClRmkqlhKeKuk4yTVvb0VYDEjnk8LdqirsqNKXE0B5pdmR'."\n".'52A3FDweVuYGBHSLWMKDiQ=='."\n".'-----END PRIVATE KEY-----'."\n".'',
+            'api_public_key' => '-----BEGIN PUBLIC KEY-----'."\n".'MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1KUxcTuC03WATdSykcYV'."\n".'o1u66oKWd1bUNP+3RxTYe+dJRWJ0NnDzylVCzd+s30md7t6HeppZ+mn5/bIDbkgP'."\n".'HgboTRs1B3JjZNG/N4epRkaw8lpVar+LxK19emWdqHEq+L9pBaaRpb4ior2dDKRT'."\n".'CxB76+LyAlGUX3S1qSy7euzBLCS7u3wDlA1A6tC6cK2fRH1lueWOmIque/Hu1zMo'."\n".'Nqnqt90u3Lm3xeda5ME47mhV0AmTTQvjO91FsZ1LRCMx956Cc4M1oUwnIzcqYTVc'."\n".'ASpbG9lyq5M9PC3tWkzwHxQTTcxrmRWHwkvU63q4UlsEM9HpP47Ch2B6WlCnPJ+9'."\n".'twIDAQAB'."\n".'-----END PUBLIC KEY-----'."\n".'',
+            'api_private_key' => '-----BEGIN PRIVATE KEY-----'."\n".'MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDUpTFxO4LTdYBN'."\n".'1LKRxhWjW7rqgpZ3VtQ0/7dHFNh750lFYnQ2cPPKVULN36zfSZ3u3od6mln6afn9'."\n".'sgNuSA8eBuhNGzUHcmNk0b83h6lGRrDyWlVqv4vErX16ZZ2ocSr4v2kFppGlviKi'."\n".'vZ0MpFMLEHvr4vICUZRfdLWpLLt67MEsJLu7fAOUDUDq0LpwrZ9EfWW55Y6Yiq57'."\n".'8e7XMyg2qeq33S7cubfF51rkwTjuaFXQCZNNC+M73UWxnUtEIzH3noJzgzWhTCcj'."\n".'NyphNVwBKlsb2XKrkz08Le1aTPAfFBNNzGuZFYfCS9TrerhSWwQz0ek/jsKHYHpa'."\n".'UKc8n723AgMBAAECggEAP5yPNtVbpJBQ6neHV65PCMhHGSIpitexsY0RsbTdsesV'."\n".'cykppKOTemKZEmcoGr+1/CAbnSSRaCTNwQPAnPv3cb8VPQO3kFu6ug04y47Mp5Y8'."\n".'FrPJO57DW/meQMAnMp1wAmuYKjWS+mbvi4l3crGxmey7dWw1g1YOMaQDN/GGwBWI'."\n".'6K7lVH/0lNrTgznfTDcUvQBNGo76fnc1euBPKiokMcxJZmrnEtbP+7cbx6PdwXKz'."\n".'UtQ1rGnGmdTT5r9NChF9U48GpENeDvuqCcrBr7HU0RdapTxSjDXx1+Yq/Sd9LhcB'."\n".'s1HKMWWYXtF+oz48ZDnhql0GXx54POtwMnX0F2RL2QKBgQD/Laa13VgDUj7HIb5H'."\n".'DKIYBvBbcmk8MlDts499AohZZjcAEp+vnPFhgdDtB5/CQiF2oAoqTOzx3FhRqXYU'."\n".'flHEe34bdS64gWPWD2skgo4JGkQ/7ypV/ltwF3+jHU3/ya89eMyhq05W5px2Tbbs'."\n".'BG4CEAt3SOIPev3BxcTn3jNXPQKBgQDVVHsmZyCUKpI8IBkQczNG8TofBFqbD4nC'."\n".'bUuhyUOAjyCEyOJiv0StMtLp0143fqjf0gawnWkPLSZCyiAjrWE9/iBY89TUolH+'."\n".'dD7IUm5ifnxXNQCYmiWjGVH/jlPFhbFOF0mmjXPpIDBCEzw8XHf/fF0tB3FpcvJR'."\n".'MG3WdrgYAwKBgCqatqDaqd00GCMrMRevtkiIsAy0l3ljdTuapTRb/ePfOwOaGGs7'."\n".'qtl60SUiBrxqSigCJHBXk5/2CBDqWDqntIM3kyCGehx4DfEpddwMqCZA6nA6QDlH'."\n".'VIDsi3TyaZlxVP7Qcmnzrgq4Shs+cnIJc0yI3UE3O/cVs9Rsbqm/4ZaJAoGADziL'."\n".'4N2S0X+IF4oiv624huNHRldFL7MYHSs3Lj/x9QZBR7gdjvYerEzoB47xNfxviCiw'."\n".'GYHhsReDl1hcmq8QNSAgprgfA1zhhMo+gISBI73qmT5K4Jh+/vgbhaReDcXQNMYs'."\n".'lxmYn5WQW+aLcbMXTL9O1pulV+S/rVNLQvYNhIkCgYAxg8mZ198L0REx9aZeGD9K'."\n".'lB35EyAOz9R8Sr8i5R2M7Un7mi4BkazG8mEEcE8U86ASoqHdLV4l8znIyvKziUWB'."\n".'M78OS7aqiBJWWI81nvClRmkqlhKeKuk4yTVvb0VYDEjnk8LdqirsqNKXE0B5pdmR'."\n".'52A3FDweVuYGBHSLWMKDiQ=='."\n".'-----END PRIVATE KEY-----'."\n".'',
             'cache.driver' => 'array',
             'cache.adapter' => 'cache.adapter.array',
             'kernel.bundles' => [
 
             ],
-            'kernel.root_dir' => '/home/justine/Documents/md/prestashop/app',
-            'kernel.project_dir' => '/home/justine/Documents/md/prestashop',
+            'kernel.root_dir' => 'C:\\Users\\nihmo\\prestashop/app',
+            'kernel.project_dir' => 'C:\\Users\\nihmo\\prestashop',
             'kernel.name' => 'app',
             'kernel.debug' => false,
             'kernel.environment' => 'prod',
-            'kernel.cache_dir' => '/home/justine/Documents/md/prestashop/var/cache/prod/',
+            'kernel.cache_dir' => 'C:\\Users\\nihmo\\prestashop/var/cache/prod\\',
             'kernel.active_modules' => [
                 0 => 'ps_linklist',
                 1 => 'blockreassurance',
-                2 => 'blockwishlist',
-                3 => 'psgdpr',
-                4 => 'ps_contactinfo',
-                5 => 'ps_languageselector',
-                6 => 'ps_currencyselector',
-                7 => 'ps_customersignin',
-                8 => 'ps_shoppingcart',
-                9 => 'ps_mainmenu',
-                10 => 'ps_searchbar',
-                11 => 'ps_imageslider',
-                12 => 'ps_featuredproducts',
-                13 => 'ps_banner',
-                14 => 'ps_customtext',
-                15 => 'ps_specials',
-                16 => 'ps_newproducts',
-                17 => 'ps_bestsellers',
-                18 => 'ps_emailsubscription',
-                19 => 'ps_socialfollow',
-                20 => 'ps_customeraccountlinks',
-                21 => 'productcomments',
-                22 => 'ps_categorytree',
-                23 => 'ps_facetedsearch',
-                24 => 'contactform',
-                25 => 'ps_sharebuttons',
-                26 => 'statsbestmanufacturers',
-                27 => 'statsbestvouchers',
-                28 => 'ps_crossselling',
-                29 => 'ps_dataprivacy',
-                30 => 'klaviyopsautomation',
-                31 => 'statspersonalinfos',
-                32 => 'psassistant',
-                33 => 'psshipping',
-                34 => 'statsbestcustomers',
-                35 => 'statscarrier',
-                36 => 'statssales',
-                37 => 'statsstock',
-                38 => 'statsbestproducts',
-                39 => 'graphnvd3',
-                40 => 'gamification',
-                41 => 'statsregistrations',
-                42 => 'ps_facebook',
-                43 => 'statscatalog',
-                44 => 'ps_metrics',
-                45 => 'ps_checkout',
-                46 => 'ps_viewedproduct',
-                47 => 'ps_faviconnotificationbo',
-                48 => 'ps_edition_basic',
-                49 => 'ps_categoryproducts',
-                50 => 'ps_supplierlist',
-                51 => 'dashtrends',
-                52 => 'statsbestsuppliers',
-                53 => 'statsproduct',
-                54 => 'statssearch',
-                55 => 'gridhtml',
-                56 => 'statsnewsletter',
-                57 => 'ps_googleanalytics',
-                58 => 'statsforecast',
-                59 => 'ps_eventbus',
-                60 => 'ps_distributionapiclient',
-                61 => 'dashactivity',
-                62 => 'dashproducts',
-                63 => 'statscheckup',
-                64 => 'ps_brandlist',
-                65 => 'statsdata',
-                66 => 'ps_checkpayment',
-                67 => 'ps_emailalerts',
-                68 => 'psxmarketingwithgoogle',
-                69 => 'dashgoals',
-                70 => 'gsitemap',
-                71 => 'pagesnotfound',
-                72 => 'ps_cashondelivery',
-                73 => 'statsbestcategories',
-                74 => 'psxdesign',
-                75 => 'ps_accounts',
-                76 => 'ps_mbo',
-                77 => 'ps_themecusto',
-                78 => 'ps_wirepayment',
-                79 => 'pscartdropdown',
+                2 => 'psgdpr',
+                3 => 'ps_contactinfo',
+                4 => 'ps_languageselector',
+                5 => 'ps_currencyselector',
+                6 => 'ps_customersignin',
+                7 => 'ps_specials',
+                8 => 'ps_newproducts',
+                9 => 'ps_emailsubscription',
+                10 => 'ps_socialfollow',
+                11 => 'ps_customeraccountlinks',
+                12 => 'ps_categorytree',
+                13 => 'ps_facetedsearch',
+                14 => 'contactform',
+                15 => 'ps_sharebuttons',
+                16 => 'statsbestmanufacturers',
+                17 => 'statsbestvouchers',
+                18 => 'ps_crossselling',
+                19 => 'ps_dataprivacy',
+                20 => 'klaviyopsautomation',
+                21 => 'statspersonalinfos',
+                22 => 'psassistant',
+                23 => 'psshipping',
+                24 => 'statsbestcustomers',
+                25 => 'statscarrier',
+                26 => 'statssales',
+                27 => 'statsstock',
+                28 => 'statsbestproducts',
+                29 => 'graphnvd3',
+                30 => 'gamification',
+                31 => 'statsregistrations',
+                32 => 'ps_facebook',
+                33 => 'statscatalog',
+                34 => 'ps_metrics',
+                35 => 'ps_checkout',
+                36 => 'ps_viewedproduct',
+                37 => 'ps_faviconnotificationbo',
+                38 => 'ps_edition_basic',
+                39 => 'ps_categoryproducts',
+                40 => 'ps_supplierlist',
+                41 => 'dashtrends',
+                42 => 'statsbestsuppliers',
+                43 => 'statsproduct',
+                44 => 'statssearch',
+                45 => 'gridhtml',
+                46 => 'statsnewsletter',
+                47 => 'ps_googleanalytics',
+                48 => 'statsforecast',
+                49 => 'ps_eventbus',
+                50 => 'ps_distributionapiclient',
+                51 => 'dashactivity',
+                52 => 'dashproducts',
+                53 => 'statscheckup',
+                54 => 'ps_brandlist',
+                55 => 'statsdata',
+                56 => 'ps_checkpayment',
+                57 => 'ps_emailalerts',
+                58 => 'psxmarketingwithgoogle',
+                59 => 'dashgoals',
+                60 => 'gsitemap',
+                61 => 'pagesnotfound',
+                62 => 'ps_cashondelivery',
+                63 => 'statsbestcategories',
+                64 => 'psxdesign',
+                65 => 'ps_accounts',
+                66 => 'ps_themecusto',
+                67 => 'ps_wirepayment',
+                68 => 'pscartdropdown',
+                69 => 'ps_mbo',
+                70 => 'mondialrelay',
+                71 => 'poswishlist',
+                72 => 'poscompare',
+                73 => 'posproductcomments',
+                74 => 'posrotatorimg',
+                75 => 'possearchproducts',
+                76 => 'posthemeoptions',
+                77 => 'poscookielaw',
+                78 => 'posfakeorder',
+                79 => 'pospopup',
+                80 => 'posproductextratab',
+                81 => 'posmegamenu',
+                82 => 'posvegamenu',
+                83 => 'posstaticblocks',
+                84 => 'posquickmenu',
+                85 => 'posshoppingcart',
+                86 => 'possizechart',
+                87 => 'smartblog',
+                88 => 'smartbloglatestcomments',
+                89 => 'smartblogrecentposts',
+                90 => 'smartblogsearch',
+                91 => 'smartblogtag',
+                92 => 'creativeelements',
             ],
-            'ps_cache_dir' => '/home/justine/Documents/md/prestashop/var/cache/prod/',
+            'ps_cache_dir' => 'C:\\Users\\nihmo\\prestashop/var/cache/prod\\',
             'mail_themes_uri' => '/mails/themes',
             'doctrine.dbal.logger.chain.class' => 'Doctrine\\DBAL\\Logging\\LoggerChain',
             'doctrine.dbal.logger.profiling.class' => 'Doctrine\\DBAL\\Logging\\DebugStack',
@@ -5367,7 +5354,7 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
             'doctrine.orm.second_level_cache.cache_configuration.class' => 'Doctrine\\ORM\\Cache\\CacheConfiguration',
             'doctrine.orm.second_level_cache.regions_configuration.class' => 'Doctrine\\ORM\\Cache\\RegionsConfiguration',
             'doctrine.orm.auto_generate_proxy_classes' => false,
-            'doctrine.orm.proxy_dir' => '/home/justine/Documents/md/prestashop/var/cache/prod//doctrine/orm/Proxies',
+            'doctrine.orm.proxy_dir' => 'C:\\Users\\nihmo\\prestashop/var/cache/prod\\/doctrine/orm/Proxies',
             'doctrine.orm.proxy_namespace' => 'Proxies',
             'psshipping.sentry_dsn' => 'https://78c41abf489931010a3a83cacc14926b@o298402.ingest.sentry.io/4505906299600896',
             'psshipping.sentry_env' => 'production',
@@ -5379,11 +5366,6 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
             'psshipping.use_local_vue_app' => 0,
             'psshipping.mbe_tracking_url' => 'https://www.mbe.it/en/tracking?c=@',
             'psshipping.segment_key' => '3XsHeI2dfKoKE2wReGp7IO2bLa5hbeVB',
-            'ps_eventbus.proxy_api_url' => 'https://eventbus-proxy.psessentials.net',
-            'ps_eventbus.sync_api_url' => 'https://eventbus-sync.psessentials.net',
-            'ps_eventbus.live_sync_api_url' => 'https://api.cloudsync.prestashop.com/live-sync/v1',
-            'ps_eventbus.sentry_dsn' => 'https://457f191226df4b8f9a0d7bf6f250bab2@o298402.ingest.sentry.io/6066714',
-            'ps_eventbus.sentry_env' => 'production',
             'ps_accounts.environment' => 'production',
             'ps_accounts.accounts_api_url' => 'https://accounts-api.distribution.prestashop.net/',
             'ps_accounts.accounts_ui_url' => 'https://accounts.distribution.prestashop.net',
@@ -5401,6 +5383,11 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
             'ps_accounts.svc_accounts_ui_url' => 'https://accounts.psessentials.net',
             'ps_accounts.oauth2_url' => 'https://oauth.prestashop.com',
             'ps_accounts.testimonials_url' => 'https://assets.prestashop3.com/dst/accounts/assets/testimonials.json',
+            'ps_eventbus.proxy_api_url' => 'https://eventbus-proxy.psessentials.net',
+            'ps_eventbus.sync_api_url' => 'https://eventbus-sync.psessentials.net',
+            'ps_eventbus.live_sync_api_url' => 'https://api.cloudsync.prestashop.com/live-sync/v1',
+            'ps_eventbus.sentry_dsn' => 'https://457f191226df4b8f9a0d7bf6f250bab2@o298402.ingest.sentry.io/6066714',
+            'ps_eventbus.sentry_env' => 'production',
         ];
     }
 }

@@ -1,0 +1,15 @@
+id;Nom;Description;Position;Affichée
+10;"Jeux de Société";"Découvrez notre sélection de jeux de société, pour tous les âges et tous les goûts.";0;1
+38;"Jeux Classiques";"Si vous êtes plus classique, retrouvez ici les jeux traditionnels d'ici ou d'ailleurs !";1;1
+39;"Mais aussi ...";;2;1
+67;"Coups de Coeur";"Vous retrouverez ici tous nos jeux coups de cœur ! Cette sélection est totalement subjective et évolue constamment. Certains jeux n'y resteront pas, d'autres intégreront les indispensables ...";3;1
+68;"Les Indispensables";"Dans cette section sont regroupés des jeux de société indispensables, devenus cultes avec le temps. Si vous ne savez pas quel jeu choisir, n'importe lequel de cette sélection est une valeur sûre qui plaira à tous les coups !";4;1
+41;"Hors Ligne";;5;0
+81;"Carte Cadeau";"Offrez une carte cadeau, elle est valable sur tout le site ainsi qu'en boutique !";6;1
+84;"Taux Réduit";;7;0
+89;"Pour Halloween";"Dans cette section sont regroupés des jeux de société indispensables pour Halloween.";9;1
+94;"Nouvel An";"Retrouvez ici une sélection de jeux idéals pour passer un réveillon fun et ludique !";11;1
+105;Précommandes;"Monsieur Dé vous propose de précommander certains des jeux les plus attendus. Les dates de disponibilités annoncées sont celles fournies par les éditeurs, elles sont toutefois susceptibles de changer.";13;1
+121;"Bientôt disponible ...";"Retrouvez ici tous les jeux bientôt disponibles, qu'il s'agisse de nouveautés ou de retour en stock. Les dates annoncées sont approximatives et la l'arrivée en stock d'un produit peut être différente de la date officielle de sortie ou de retour pour diverses raisons (logistiques, besoins, attentes, ...)";14;1
+136;"May the 4th";;20;1
+137;Promotions;;21;1

@@ -6,7 +6,7 @@
   ),
   'AbstractAssetManagerCore' => 
   array (
-    'path' => 'classes/assets/AbstractAssetManager.php',
+    'path' => 'classes\\assets\\AbstractAssetManager.php',
     'type' => 'abstract class',
   ),
   'AbstractCheckoutStep' => 
@@ -16,7 +16,7 @@
   ),
   'AbstractCheckoutStepCore' => 
   array (
-    'path' => 'classes/checkout/AbstractCheckoutStep.php',
+    'path' => 'classes\\checkout\\AbstractCheckoutStep.php',
     'type' => 'abstract class',
   ),
   'AbstractForm' => 
@@ -26,7 +26,7 @@
   ),
   'AbstractFormCore' => 
   array (
-    'path' => 'classes/form/AbstractForm.php',
+    'path' => 'classes\\form\\AbstractForm.php',
     'type' => 'abstract class',
   ),
   'AbstractLogger' => 
@@ -36,7 +36,7 @@
   ),
   'AbstractLoggerCore' => 
   array (
-    'path' => 'classes/log/AbstractLogger.php',
+    'path' => 'classes\\log\\AbstractLogger.php',
     'type' => 'abstract class',
   ),
   'Access' => 
@@ -46,7 +46,7 @@
   ),
   'AccessCore' => 
   array (
-    'path' => 'classes/Access.php',
+    'path' => 'classes\\Access.php',
     'type' => 'class',
   ),
   'Address' => 
@@ -61,7 +61,7 @@
   ),
   'AddressChecksumCore' => 
   array (
-    'path' => 'classes/AddressChecksumCore.php',
+    'path' => 'classes\\AddressChecksumCore.php',
     'type' => 'class',
   ),
   'AddressController' => 
@@ -71,12 +71,12 @@
   ),
   'AddressControllerCore' => 
   array (
-    'path' => 'controllers/front/AddressController.php',
+    'path' => 'controllers\\front\\AddressController.php',
     'type' => 'class',
   ),
   'AddressCore' => 
   array (
-    'path' => 'classes/Address.php',
+    'path' => 'classes\\Address.php',
     'type' => 'class',
   ),
   'AddressFormat' => 
@@ -86,7 +86,7 @@
   ),
   'AddressFormatCore' => 
   array (
-    'path' => 'classes/AddressFormat.php',
+    'path' => 'classes\\AddressFormat.php',
     'type' => 'class',
   ),
   'AddressValidator' => 
@@ -96,7 +96,7 @@
   ),
   'AddressValidatorCore' => 
   array (
-    'path' => 'classes/checkout/AddressValidator.php',
+    'path' => 'classes\\checkout\\AddressValidator.php',
     'type' => 'class',
   ),
   'AddressesController' => 
@@ -106,7 +106,7 @@
   ),
   'AddressesControllerCore' => 
   array (
-    'path' => 'controllers/front/AddressesController.php',
+    'path' => 'controllers\\front\\AddressesController.php',
     'type' => 'class',
   ),
   'AdminAccessController' => 
@@ -116,7 +116,7 @@
   ),
   'AdminAccessControllerCore' => 
   array (
-    'path' => 'controllers/admin/AdminAccessController.php',
+    'path' => 'controllers\\admin\\AdminAccessController.php',
     'type' => 'class',
   ),
   'AdminAttributesGroupsController' => 
@@ -126,7 +126,7 @@
   ),
   'AdminAttributesGroupsControllerCore' => 
   array (
-    'path' => 'controllers/admin/AdminAttributesGroupsController.php',
+    'path' => 'controllers\\admin\\AdminAttributesGroupsController.php',
     'type' => 'class',
   ),
   'AdminCarrierWizardController' => 
@@ -136,7 +136,7 @@
   ),
   'AdminCarrierWizardControllerCore' => 
   array (
-    'path' => 'controllers/admin/AdminCarrierWizardController.php',
+    'path' => 'controllers\\admin\\AdminCarrierWizardController.php',
     'type' => 'class',
   ),
   'AdminCarriersController' => 
@@ -146,7 +146,7 @@
   ),
   'AdminCarriersControllerCore' => 
   array (
-    'path' => 'controllers/admin/AdminCarriersController.php',
+    'path' => 'controllers\\admin\\AdminCarriersController.php',
     'type' => 'class',
   ),
   'AdminCartRulesController' => 
@@ -156,7 +156,7 @@
   ),
   'AdminCartRulesControllerCore' => 
   array (
-    'path' => 'controllers/admin/AdminCartRulesController.php',
+    'path' => 'controllers\\admin\\AdminCartRulesController.php',
     'type' => 'class',
   ),
   'AdminCartsController' => 
@@ -166,7 +166,7 @@
   ),
   'AdminCartsControllerCore' => 
   array (
-    'path' => 'controllers/admin/AdminCartsController.php',
+    'path' => 'controllers\\admin\\AdminCartsController.php',
     'type' => 'class',
   ),
   'AdminController' => 
@@ -176,7 +176,7 @@
   ),
   'AdminControllerCore' => 
   array (
-    'path' => 'classes/controller/AdminController.php',
+    'path' => 'classes\\controller\\AdminController.php',
     'type' => 'class',
   ),
   'AdminCountriesController' => 
@@ -186,7 +186,7 @@
   ),
   'AdminCountriesControllerCore' => 
   array (
-    'path' => 'controllers/admin/AdminCountriesController.php',
+    'path' => 'controllers\\admin\\AdminCountriesController.php',
     'type' => 'class',
   ),
   'AdminCustomerThreadsController' => 
@@ -196,7 +196,7 @@
   ),
   'AdminCustomerThreadsControllerCore' => 
   array (
-    'path' => 'controllers/admin/AdminCustomerThreadsController.php',
+    'path' => 'controllers\\admin\\AdminCustomerThreadsController.php',
     'type' => 'class',
   ),
   'AdminDashboardController' => 
@@ -206,7 +206,7 @@
   ),
   'AdminDashboardControllerCore' => 
   array (
-    'path' => 'controllers/admin/AdminDashboardController.php',
+    'path' => 'controllers\\admin\\AdminDashboardController.php',
     'type' => 'class',
   ),
   'AdminFeaturesController' => 
@@ -216,7 +216,7 @@
   ),
   'AdminFeaturesControllerCore' => 
   array (
-    'path' => 'controllers/admin/AdminFeaturesController.php',
+    'path' => 'controllers\\admin\\AdminFeaturesController.php',
     'type' => 'class',
   ),
   'AdminGendersController' => 
@@ -226,7 +226,7 @@
   ),
   'AdminGendersControllerCore' => 
   array (
-    'path' => 'controllers/admin/AdminGendersController.php',
+    'path' => 'controllers\\admin\\AdminGendersController.php',
     'type' => 'class',
   ),
   'AdminGroupsController' => 
@@ -236,7 +236,7 @@
   ),
   'AdminGroupsControllerCore' => 
   array (
-    'path' => 'controllers/admin/AdminGroupsController.php',
+    'path' => 'controllers\\admin\\AdminGroupsController.php',
     'type' => 'class',
   ),
   'AdminImagesController' => 
@@ -246,7 +246,7 @@
   ),
   'AdminImagesControllerCore' => 
   array (
-    'path' => 'controllers/admin/AdminImagesController.php',
+    'path' => 'controllers\\admin\\AdminImagesController.php',
     'type' => 'class',
   ),
   'AdminImportController' => 
@@ -256,7 +256,7 @@
   ),
   'AdminImportControllerCore' => 
   array (
-    'path' => 'controllers/admin/AdminImportController.php',
+    'path' => 'controllers\\admin\\AdminImportController.php',
     'type' => 'class',
   ),
   'AdminLegacyLayoutController' => 
@@ -266,7 +266,7 @@
   ),
   'AdminLegacyLayoutControllerCore' => 
   array (
-    'path' => 'controllers/admin/AdminLegacyLayoutController.php',
+    'path' => 'controllers\\admin\\AdminLegacyLayoutController.php',
     'type' => 'class',
   ),
   'AdminLoginController' => 
@@ -276,7 +276,7 @@
   ),
   'AdminLoginControllerCore' => 
   array (
-    'path' => 'controllers/admin/AdminLoginController.php',
+    'path' => 'controllers\\admin\\AdminLoginController.php',
     'type' => 'class',
   ),
   'AdminModulesController' => 
@@ -286,7 +286,7 @@
   ),
   'AdminModulesControllerCore' => 
   array (
-    'path' => 'controllers/admin/AdminModulesController.php',
+    'path' => 'controllers\\admin\\AdminModulesController.php',
     'type' => 'class',
   ),
   'AdminModulesPositionsController' => 
@@ -296,7 +296,7 @@
   ),
   'AdminModulesPositionsControllerCore' => 
   array (
-    'path' => 'controllers/admin/AdminModulesPositionsController.php',
+    'path' => 'controllers\\admin\\AdminModulesPositionsController.php',
     'type' => 'class',
   ),
   'AdminNotFoundController' => 
@@ -306,7 +306,7 @@
   ),
   'AdminNotFoundControllerCore' => 
   array (
-    'path' => 'controllers/admin/AdminNotFoundController.php',
+    'path' => 'controllers\\admin\\AdminNotFoundController.php',
     'type' => 'class',
   ),
   'AdminPdfController' => 
@@ -316,7 +316,7 @@
   ),
   'AdminPdfControllerCore' => 
   array (
-    'path' => 'controllers/admin/AdminPdfController.php',
+    'path' => 'controllers\\admin\\AdminPdfController.php',
     'type' => 'class',
   ),
   'AdminProductsController' => 
@@ -326,7 +326,7 @@
   ),
   'AdminProductsControllerCore' => 
   array (
-    'path' => 'controllers/admin/AdminProductsController.php',
+    'path' => 'controllers\\admin\\AdminProductsController.php',
     'type' => 'class',
   ),
   'AdminQuickAccessesController' => 
@@ -336,7 +336,7 @@
   ),
   'AdminQuickAccessesControllerCore' => 
   array (
-    'path' => 'controllers/admin/AdminQuickAccessesController.php',
+    'path' => 'controllers\\admin\\AdminQuickAccessesController.php',
     'type' => 'class',
   ),
   'AdminRequestSqlController' => 
@@ -346,7 +346,7 @@
   ),
   'AdminRequestSqlControllerCore' => 
   array (
-    'path' => 'controllers/admin/AdminRequestSqlController.php',
+    'path' => 'controllers\\admin\\AdminRequestSqlController.php',
     'type' => 'class',
   ),
   'AdminReturnController' => 
@@ -356,7 +356,7 @@
   ),
   'AdminReturnControllerCore' => 
   array (
-    'path' => 'controllers/admin/AdminReturnController.php',
+    'path' => 'controllers\\admin\\AdminReturnController.php',
     'type' => 'class',
   ),
   'AdminSearchConfController' => 
@@ -366,7 +366,7 @@
   ),
   'AdminSearchConfControllerCore' => 
   array (
-    'path' => 'controllers/admin/AdminSearchConfController.php',
+    'path' => 'controllers\\admin\\AdminSearchConfController.php',
     'type' => 'class',
   ),
   'AdminSearchController' => 
@@ -376,7 +376,7 @@
   ),
   'AdminSearchControllerCore' => 
   array (
-    'path' => 'controllers/admin/AdminSearchController.php',
+    'path' => 'controllers\\admin\\AdminSearchController.php',
     'type' => 'class',
   ),
   'AdminShopController' => 
@@ -386,7 +386,7 @@
   ),
   'AdminShopControllerCore' => 
   array (
-    'path' => 'controllers/admin/AdminShopController.php',
+    'path' => 'controllers\\admin\\AdminShopController.php',
     'type' => 'class',
   ),
   'AdminShopGroupController' => 
@@ -396,7 +396,7 @@
   ),
   'AdminShopGroupControllerCore' => 
   array (
-    'path' => 'controllers/admin/AdminShopGroupController.php',
+    'path' => 'controllers\\admin\\AdminShopGroupController.php',
     'type' => 'class',
   ),
   'AdminShopUrlController' => 
@@ -406,7 +406,7 @@
   ),
   'AdminShopUrlControllerCore' => 
   array (
-    'path' => 'controllers/admin/AdminShopUrlController.php',
+    'path' => 'controllers\\admin\\AdminShopUrlController.php',
     'type' => 'class',
   ),
   'AdminSpecificPriceRuleController' => 
@@ -416,7 +416,7 @@
   ),
   'AdminSpecificPriceRuleControllerCore' => 
   array (
-    'path' => 'controllers/admin/AdminSpecificPriceRuleController.php',
+    'path' => 'controllers\\admin\\AdminSpecificPriceRuleController.php',
     'type' => 'class',
   ),
   'AdminStatesController' => 
@@ -426,7 +426,7 @@
   ),
   'AdminStatesControllerCore' => 
   array (
-    'path' => 'controllers/admin/AdminStatesController.php',
+    'path' => 'controllers\\admin\\AdminStatesController.php',
     'type' => 'class',
   ),
   'AdminStatsController' => 
@@ -436,7 +436,7 @@
   ),
   'AdminStatsControllerCore' => 
   array (
-    'path' => 'controllers/admin/AdminStatsController.php',
+    'path' => 'controllers\\admin\\AdminStatsController.php',
     'type' => 'class',
   ),
   'AdminStatsTabController' => 
@@ -446,7 +446,7 @@
   ),
   'AdminStatsTabControllerCore' => 
   array (
-    'path' => 'controllers/admin/AdminStatsTabController.php',
+    'path' => 'controllers\\admin\\AdminStatsTabController.php',
     'type' => 'abstract class',
   ),
   'AdminStatusesController' => 
@@ -456,7 +456,7 @@
   ),
   'AdminStatusesControllerCore' => 
   array (
-    'path' => 'controllers/admin/AdminStatusesController.php',
+    'path' => 'controllers\\admin\\AdminStatusesController.php',
     'type' => 'class',
   ),
   'AdminStoresController' => 
@@ -466,7 +466,7 @@
   ),
   'AdminStoresControllerCore' => 
   array (
-    'path' => 'controllers/admin/AdminStoresController.php',
+    'path' => 'controllers\\admin\\AdminStoresController.php',
     'type' => 'class',
   ),
   'AdminSuppliersController' => 
@@ -476,7 +476,7 @@
   ),
   'AdminSuppliersControllerCore' => 
   array (
-    'path' => 'controllers/admin/AdminSuppliersController.php',
+    'path' => 'controllers\\admin\\AdminSuppliersController.php',
     'type' => 'class',
   ),
   'AdminTabsController' => 
@@ -486,7 +486,7 @@
   ),
   'AdminTabsControllerCore' => 
   array (
-    'path' => 'controllers/admin/AdminTabsController.php',
+    'path' => 'controllers\\admin\\AdminTabsController.php',
     'type' => 'class',
   ),
   'AdminTagsController' => 
@@ -496,7 +496,7 @@
   ),
   'AdminTagsControllerCore' => 
   array (
-    'path' => 'controllers/admin/AdminTagsController.php',
+    'path' => 'controllers\\admin\\AdminTagsController.php',
     'type' => 'class',
   ),
   'AdminTaxRulesGroupController' => 
@@ -506,7 +506,7 @@
   ),
   'AdminTaxRulesGroupControllerCore' => 
   array (
-    'path' => 'controllers/admin/AdminTaxRulesGroupController.php',
+    'path' => 'controllers\\admin\\AdminTaxRulesGroupController.php',
     'type' => 'class',
   ),
   'AdminTranslationsController' => 
@@ -516,7 +516,7 @@
   ),
   'AdminTranslationsControllerCore' => 
   array (
-    'path' => 'controllers/admin/AdminTranslationsController.php',
+    'path' => 'controllers\\admin\\AdminTranslationsController.php',
     'type' => 'class',
   ),
   'Alias' => 
@@ -526,7 +526,7 @@
   ),
   'AliasCore' => 
   array (
-    'path' => 'classes/Alias.php',
+    'path' => 'classes\\Alias.php',
     'type' => 'class',
   ),
   'Attachment' => 
@@ -541,12 +541,12 @@
   ),
   'AttachmentControllerCore' => 
   array (
-    'path' => 'controllers/front/AttachmentController.php',
+    'path' => 'controllers\\front\\AttachmentController.php',
     'type' => 'class',
   ),
   'AttachmentCore' => 
   array (
-    'path' => 'classes/Attachment.php',
+    'path' => 'classes\\Attachment.php',
     'type' => 'class',
   ),
   'AttributeGroup' => 
@@ -556,7 +556,7 @@
   ),
   'AttributeGroupCore' => 
   array (
-    'path' => 'classes/AttributeGroup.php',
+    'path' => 'classes\\AttributeGroup.php',
     'type' => 'class',
   ),
   'AttributeGroupLang' => 
@@ -566,7 +566,7 @@
   ),
   'AttributeGroupLangCore' => 
   array (
-    'path' => 'classes/lang/AttributeGroupLang.php',
+    'path' => 'classes\\lang\\AttributeGroupLang.php',
     'type' => 'class',
   ),
   'AttributeLang' => 
@@ -576,7 +576,7 @@
   ),
   'AttributeLangCore' => 
   array (
-    'path' => 'classes/lang/AttributeLang.php',
+    'path' => 'classes\\lang\\AttributeLang.php',
     'type' => 'class',
   ),
   'AuthController' => 
@@ -586,12 +586,12 @@
   ),
   'AuthControllerCore' => 
   array (
-    'path' => 'controllers/front/AuthController.php',
+    'path' => 'controllers\\front\\AuthController.php',
     'type' => 'class',
   ),
   'AverageTaxOfProductsTaxCalculator' => 
   array (
-    'path' => 'classes/tax/AverageTaxOfProductsTaxCalculator.php',
+    'path' => 'classes\\tax\\AverageTaxOfProductsTaxCalculator.php',
     'type' => 'class',
   ),
   'BestSalesController' => 
@@ -601,7 +601,7 @@
   ),
   'BestSalesControllerCore' => 
   array (
-    'path' => 'controllers/front/listing/BestSalesController.php',
+    'path' => 'controllers\\front\\listing\\BestSalesController.php',
     'type' => 'class',
   ),
   'BoOrder' => 
@@ -611,7 +611,7 @@
   ),
   'BoOrderCore' => 
   array (
-    'path' => 'controllers/admin/BoOrder.php',
+    'path' => 'controllers\\admin\\BoOrder.php',
     'type' => 'class',
   ),
   'CMS' => 
@@ -621,17 +621,17 @@
   ),
   'CMSCategory' => 
   array (
-    'path' => NULL,
+    'path' => 'override\\classes\\CMSCategory.php',
     'type' => 'class',
   ),
   'CMSCategoryCore' => 
   array (
-    'path' => 'classes/CMSCategory.php',
+    'path' => 'classes\\CMSCategory.php',
     'type' => 'class',
   ),
   'CMSCore' => 
   array (
-    'path' => 'classes/CMS.php',
+    'path' => 'classes\\CMS.php',
     'type' => 'class',
   ),
   'CMSRole' => 
@@ -641,7 +641,7 @@
   ),
   'CMSRoleCore' => 
   array (
-    'path' => 'classes/CMSRole.php',
+    'path' => 'classes\\CMSRole.php',
     'type' => 'class',
   ),
   'CSV' => 
@@ -651,7 +651,7 @@
   ),
   'CSVCore' => 
   array (
-    'path' => 'classes/CSV.php',
+    'path' => 'classes\\CSV.php',
     'type' => 'class',
   ),
   'Cache' => 
@@ -666,12 +666,12 @@
   ),
   'CacheApcCore' => 
   array (
-    'path' => 'classes/cache/CacheApc.php',
+    'path' => 'classes\\cache\\CacheApc.php',
     'type' => 'class',
   ),
   'CacheCore' => 
   array (
-    'path' => 'classes/cache/Cache.php',
+    'path' => 'classes\\cache\\Cache.php',
     'type' => 'abstract class',
   ),
   'CacheMemcache' => 
@@ -681,7 +681,7 @@
   ),
   'CacheMemcacheCore' => 
   array (
-    'path' => 'classes/cache/CacheMemcache.php',
+    'path' => 'classes\\cache\\CacheMemcache.php',
     'type' => 'class',
   ),
   'CacheMemcached' => 
@@ -691,7 +691,7 @@
   ),
   'CacheMemcachedCore' => 
   array (
-    'path' => 'classes/cache/CacheMemcached.php',
+    'path' => 'classes\\cache\\CacheMemcached.php',
     'type' => 'class',
   ),
   'CacheXcache' => 
@@ -701,7 +701,7 @@
   ),
   'CacheXcacheCore' => 
   array (
-    'path' => 'classes/cache/CacheXcache.php',
+    'path' => 'classes\\cache\\CacheXcache.php',
     'type' => 'class',
   ),
   'Carrier' => 
@@ -711,7 +711,7 @@
   ),
   'CarrierCore' => 
   array (
-    'path' => 'classes/Carrier.php',
+    'path' => 'classes\\Carrier.php',
     'type' => 'class',
   ),
   'CarrierLang' => 
@@ -721,7 +721,7 @@
   ),
   'CarrierLangCore' => 
   array (
-    'path' => 'classes/lang/CarrierLang.php',
+    'path' => 'classes\\lang\\CarrierLang.php',
     'type' => 'class',
   ),
   'CarrierModule' => 
@@ -731,7 +731,7 @@
   ),
   'CarrierModuleCore' => 
   array (
-    'path' => 'classes/module/CarrierModule.php',
+    'path' => 'classes\\module\\CarrierModule.php',
     'type' => 'abstract class',
   ),
   'Cart' => 
@@ -746,7 +746,7 @@
   ),
   'CartChecksumCore' => 
   array (
-    'path' => 'classes/checkout/CartChecksum.php',
+    'path' => 'classes\\checkout\\CartChecksum.php',
     'type' => 'class',
   ),
   'CartController' => 
@@ -756,12 +756,12 @@
   ),
   'CartControllerCore' => 
   array (
-    'path' => 'controllers/front/CartController.php',
+    'path' => 'controllers\\front\\CartController.php',
     'type' => 'class',
   ),
   'CartCore' => 
   array (
-    'path' => 'classes/Cart.php',
+    'path' => 'classes\\Cart.php',
     'type' => 'class',
   ),
   'CartRule' => 
@@ -771,12 +771,12 @@
   ),
   'CartRuleCore' => 
   array (
-    'path' => 'classes/CartRule.php',
+    'path' => 'classes\\CartRule.php',
     'type' => 'class',
   ),
   'Category' => 
   array (
-    'path' => NULL,
+    'path' => 'override\\classes\\Category.php',
     'type' => 'class',
   ),
   'CategoryController' => 
@@ -786,12 +786,12 @@
   ),
   'CategoryControllerCore' => 
   array (
-    'path' => 'controllers/front/listing/CategoryController.php',
+    'path' => 'controllers\\front\\listing\\CategoryController.php',
     'type' => 'class',
   ),
   'CategoryCore' => 
   array (
-    'path' => 'classes/Category.php',
+    'path' => 'classes\\Category.php',
     'type' => 'class',
   ),
   'CategoryLang' => 
@@ -801,7 +801,7 @@
   ),
   'CategoryLangCore' => 
   array (
-    'path' => 'classes/lang/CategoryLang.php',
+    'path' => 'classes\\lang\\CategoryLang.php',
     'type' => 'class',
   ),
   'CccReducer' => 
@@ -811,7 +811,7 @@
   ),
   'CccReducerCore' => 
   array (
-    'path' => 'classes/assets/CccReducer.php',
+    'path' => 'classes\\assets\\CccReducer.php',
     'type' => 'class',
   ),
   'ChangeCurrencyController' => 
@@ -821,7 +821,7 @@
   ),
   'ChangeCurrencyControllerCore' => 
   array (
-    'path' => 'controllers/front/ChangeCurrencyController.php',
+    'path' => 'controllers\\front\\ChangeCurrencyController.php',
     'type' => 'class',
   ),
   'Chart' => 
@@ -831,7 +831,7 @@
   ),
   'ChartCore' => 
   array (
-    'path' => 'classes/Chart.php',
+    'path' => 'classes\\Chart.php',
     'type' => 'class',
   ),
   'CheckoutAddressesStep' => 
@@ -841,7 +841,7 @@
   ),
   'CheckoutAddressesStepCore' => 
   array (
-    'path' => 'classes/checkout/CheckoutAddressesStep.php',
+    'path' => 'classes\\checkout\\CheckoutAddressesStep.php',
     'type' => 'class',
   ),
   'CheckoutDeliveryStep' => 
@@ -851,7 +851,7 @@
   ),
   'CheckoutDeliveryStepCore' => 
   array (
-    'path' => 'classes/checkout/CheckoutDeliveryStep.php',
+    'path' => 'classes\\checkout\\CheckoutDeliveryStep.php',
     'type' => 'class',
   ),
   'CheckoutPaymentStep' => 
@@ -861,7 +861,7 @@
   ),
   'CheckoutPaymentStepCore' => 
   array (
-    'path' => 'classes/checkout/CheckoutPaymentStep.php',
+    'path' => 'classes\\checkout\\CheckoutPaymentStep.php',
     'type' => 'class',
   ),
   'CheckoutPersonalInformationStep' => 
@@ -871,7 +871,7 @@
   ),
   'CheckoutPersonalInformationStepCore' => 
   array (
-    'path' => 'classes/checkout/CheckoutPersonalInformationStep.php',
+    'path' => 'classes\\checkout\\CheckoutPersonalInformationStep.php',
     'type' => 'class',
   ),
   'CheckoutProcess' => 
@@ -881,7 +881,7 @@
   ),
   'CheckoutProcessCore' => 
   array (
-    'path' => 'classes/checkout/CheckoutProcess.php',
+    'path' => 'classes\\checkout\\CheckoutProcess.php',
     'type' => 'class',
   ),
   'CheckoutSession' => 
@@ -891,17 +891,17 @@
   ),
   'CheckoutSessionCore' => 
   array (
-    'path' => 'classes/checkout/CheckoutSession.php',
+    'path' => 'classes\\checkout\\CheckoutSession.php',
     'type' => 'class',
   ),
   'CheckoutStepInterface' => 
   array (
-    'path' => 'classes/checkout/CheckoutStepInterface.php',
+    'path' => 'classes\\checkout\\CheckoutStepInterface.php',
     'type' => 'interface',
   ),
   'ChecksumInterface' => 
   array (
-    'path' => 'classes/ChecksumInterface.php',
+    'path' => 'classes\\ChecksumInterface.php',
     'type' => 'interface',
   ),
   'CmsCategoryLang' => 
@@ -911,7 +911,7 @@
   ),
   'CmsCategoryLangCore' => 
   array (
-    'path' => 'classes/lang/CmsCategoryLang.php',
+    'path' => 'classes\\lang\\CmsCategoryLang.php',
     'type' => 'class',
   ),
   'CmsController' => 
@@ -921,7 +921,7 @@
   ),
   'CmsControllerCore' => 
   array (
-    'path' => 'controllers/front/CmsController.php',
+    'path' => 'controllers\\front\\CmsController.php',
     'type' => 'class',
   ),
   'Combination' => 
@@ -931,7 +931,7 @@
   ),
   'CombinationCore' => 
   array (
-    'path' => 'classes/Combination.php',
+    'path' => 'classes\\Combination.php',
     'type' => 'class',
   ),
   'ConditionsToApproveFinder' => 
@@ -941,7 +941,7 @@
   ),
   'ConditionsToApproveFinderCore' => 
   array (
-    'path' => 'classes/checkout/ConditionsToApproveFinder.php',
+    'path' => 'classes\\checkout\\ConditionsToApproveFinder.php',
     'type' => 'class',
   ),
   'Configuration' => 
@@ -951,7 +951,7 @@
   ),
   'ConfigurationCore' => 
   array (
-    'path' => 'classes/Configuration.php',
+    'path' => 'classes\\Configuration.php',
     'type' => 'class',
   ),
   'ConfigurationKPI' => 
@@ -961,7 +961,7 @@
   ),
   'ConfigurationKPICore' => 
   array (
-    'path' => 'classes/ConfigurationKPI.php',
+    'path' => 'classes\\ConfigurationKPI.php',
     'type' => 'class',
   ),
   'ConfigurationLang' => 
@@ -971,7 +971,7 @@
   ),
   'ConfigurationLangCore' => 
   array (
-    'path' => 'classes/lang/ConfigurationLang.php',
+    'path' => 'classes\\lang\\ConfigurationLang.php',
     'type' => 'class',
   ),
   'ConfigurationTest' => 
@@ -981,7 +981,7 @@
   ),
   'ConfigurationTestCore' => 
   array (
-    'path' => 'classes/ConfigurationTest.php',
+    'path' => 'classes\\ConfigurationTest.php',
     'type' => 'class',
   ),
   'Connection' => 
@@ -991,7 +991,7 @@
   ),
   'ConnectionCore' => 
   array (
-    'path' => 'classes/Connection.php',
+    'path' => 'classes\\Connection.php',
     'type' => 'class',
   ),
   'ConnectionsSource' => 
@@ -1001,7 +1001,7 @@
   ),
   'ConnectionsSourceCore' => 
   array (
-    'path' => 'classes/ConnectionsSource.php',
+    'path' => 'classes\\ConnectionsSource.php',
     'type' => 'class',
   ),
   'Contact' => 
@@ -1016,12 +1016,12 @@
   ),
   'ContactControllerCore' => 
   array (
-    'path' => 'controllers/front/ContactController.php',
+    'path' => 'controllers\\front\\ContactController.php',
     'type' => 'class',
   ),
   'ContactCore' => 
   array (
-    'path' => 'classes/Contact.php',
+    'path' => 'classes\\Contact.php',
     'type' => 'class',
   ),
   'ContactLang' => 
@@ -1031,7 +1031,7 @@
   ),
   'ContactLangCore' => 
   array (
-    'path' => 'classes/lang/ContactLang.php',
+    'path' => 'classes\\lang\\ContactLang.php',
     'type' => 'class',
   ),
   'Context' => 
@@ -1041,7 +1041,7 @@
   ),
   'ContextCore' => 
   array (
-    'path' => 'classes/Context.php',
+    'path' => 'classes\\Context.php',
     'type' => 'class',
   ),
   'Controller' => 
@@ -1051,7 +1051,7 @@
   ),
   'ControllerCore' => 
   array (
-    'path' => 'classes/controller/Controller.php',
+    'path' => 'classes\\controller\\Controller.php',
     'type' => 'abstract class',
   ),
   'Cookie' => 
@@ -1061,7 +1061,7 @@
   ),
   'CookieCore' => 
   array (
-    'path' => 'classes/Cookie.php',
+    'path' => 'classes\\Cookie.php',
     'type' => 'class',
   ),
   'Country' => 
@@ -1071,7 +1071,7 @@
   ),
   'CountryCore' => 
   array (
-    'path' => 'classes/Country.php',
+    'path' => 'classes\\Country.php',
     'type' => 'class',
   ),
   'CssMinifier' => 
@@ -1081,7 +1081,7 @@
   ),
   'CssMinifierCore' => 
   array (
-    'path' => 'classes/assets/CssMinifier.php',
+    'path' => 'classes\\assets\\CssMinifier.php',
     'type' => 'class',
   ),
   'Currency' => 
@@ -1091,7 +1091,7 @@
   ),
   'CurrencyCore' => 
   array (
-    'path' => 'classes/Currency.php',
+    'path' => 'classes\\Currency.php',
     'type' => 'class',
   ),
   'Curve' => 
@@ -1101,7 +1101,7 @@
   ),
   'CurveCore' => 
   array (
-    'path' => 'classes/Curve.php',
+    'path' => 'classes\\Curve.php',
     'type' => 'class',
   ),
   'Customer' => 
@@ -1116,7 +1116,7 @@
   ),
   'CustomerAddressCore' => 
   array (
-    'path' => 'classes/CustomerAddress.php',
+    'path' => 'classes\\CustomerAddress.php',
     'type' => 'class',
   ),
   'CustomerAddressForm' => 
@@ -1126,7 +1126,7 @@
   ),
   'CustomerAddressFormCore' => 
   array (
-    'path' => 'classes/form/CustomerAddressForm.php',
+    'path' => 'classes\\form\\CustomerAddressForm.php',
     'type' => 'class',
   ),
   'CustomerAddressFormatter' => 
@@ -1136,7 +1136,7 @@
   ),
   'CustomerAddressFormatterCore' => 
   array (
-    'path' => 'classes/form/CustomerAddressFormatter.php',
+    'path' => 'classes\\form\\CustomerAddressFormatter.php',
     'type' => 'class',
   ),
   'CustomerAddressPersister' => 
@@ -1146,12 +1146,12 @@
   ),
   'CustomerAddressPersisterCore' => 
   array (
-    'path' => 'classes/form/CustomerAddressPersister.php',
+    'path' => 'classes\\form\\CustomerAddressPersister.php',
     'type' => 'class',
   ),
   'CustomerCore' => 
   array (
-    'path' => 'classes/Customer.php',
+    'path' => 'classes\\Customer.php',
     'type' => 'class',
   ),
   'CustomerForm' => 
@@ -1161,7 +1161,7 @@
   ),
   'CustomerFormCore' => 
   array (
-    'path' => 'classes/form/CustomerForm.php',
+    'path' => 'classes\\form\\CustomerForm.php',
     'type' => 'class',
   ),
   'CustomerFormatter' => 
@@ -1171,7 +1171,7 @@
   ),
   'CustomerFormatterCore' => 
   array (
-    'path' => 'classes/form/CustomerFormatter.php',
+    'path' => 'classes\\form\\CustomerFormatter.php',
     'type' => 'class',
   ),
   'CustomerLoginForm' => 
@@ -1181,7 +1181,7 @@
   ),
   'CustomerLoginFormCore' => 
   array (
-    'path' => 'classes/form/CustomerLoginForm.php',
+    'path' => 'classes\\form\\CustomerLoginForm.php',
     'type' => 'class',
   ),
   'CustomerLoginFormatter' => 
@@ -1191,7 +1191,7 @@
   ),
   'CustomerLoginFormatterCore' => 
   array (
-    'path' => 'classes/form/CustomerLoginFormatter.php',
+    'path' => 'classes\\form\\CustomerLoginFormatter.php',
     'type' => 'class',
   ),
   'CustomerMessage' => 
@@ -1201,7 +1201,7 @@
   ),
   'CustomerMessageCore' => 
   array (
-    'path' => 'classes/CustomerMessage.php',
+    'path' => 'classes\\CustomerMessage.php',
     'type' => 'class',
   ),
   'CustomerPersister' => 
@@ -1211,7 +1211,7 @@
   ),
   'CustomerPersisterCore' => 
   array (
-    'path' => 'classes/form/CustomerPersister.php',
+    'path' => 'classes\\form\\CustomerPersister.php',
     'type' => 'class',
   ),
   'CustomerSession' => 
@@ -1221,7 +1221,7 @@
   ),
   'CustomerSessionCore' => 
   array (
-    'path' => 'classes/CustomerSession.php',
+    'path' => 'classes\\CustomerSession.php',
     'type' => 'class',
   ),
   'CustomerThread' => 
@@ -1231,7 +1231,7 @@
   ),
   'CustomerThreadCore' => 
   array (
-    'path' => 'classes/CustomerThread.php',
+    'path' => 'classes\\CustomerThread.php',
     'type' => 'class',
   ),
   'Customization' => 
@@ -1241,7 +1241,7 @@
   ),
   'CustomizationCore' => 
   array (
-    'path' => 'classes/Customization.php',
+    'path' => 'classes\\Customization.php',
     'type' => 'class',
   ),
   'CustomizationField' => 
@@ -1251,7 +1251,7 @@
   ),
   'CustomizationFieldCore' => 
   array (
-    'path' => 'classes/CustomizationField.php',
+    'path' => 'classes\\CustomizationField.php',
     'type' => 'class',
   ),
   'DataLang' => 
@@ -1261,7 +1261,7 @@
   ),
   'DataLangCore' => 
   array (
-    'path' => 'classes/lang/DataLang.php',
+    'path' => 'classes\\lang\\DataLang.php',
     'type' => 'class',
   ),
   'DateRange' => 
@@ -1271,7 +1271,7 @@
   ),
   'DateRangeCore' => 
   array (
-    'path' => 'classes/DateRange.php',
+    'path' => 'classes\\DateRange.php',
     'type' => 'class',
   ),
   'Db' => 
@@ -1281,7 +1281,7 @@
   ),
   'DbCore' => 
   array (
-    'path' => 'classes/db/Db.php',
+    'path' => 'classes\\db\\Db.php',
     'type' => 'abstract class',
   ),
   'DbMySQLi' => 
@@ -1291,7 +1291,7 @@
   ),
   'DbMySQLiCore' => 
   array (
-    'path' => 'classes/db/DbMySQLi.php',
+    'path' => 'classes\\db\\DbMySQLi.php',
     'type' => 'class',
   ),
   'DbPDO' => 
@@ -1301,7 +1301,7 @@
   ),
   'DbPDOCore' => 
   array (
-    'path' => 'classes/db/DbPDO.php',
+    'path' => 'classes\\db\\DbPDO.php',
     'type' => 'class',
   ),
   'DbQuery' => 
@@ -1311,7 +1311,7 @@
   ),
   'DbQueryCore' => 
   array (
-    'path' => 'classes/db/DbQuery.php',
+    'path' => 'classes\\db\\DbQuery.php',
     'type' => 'class',
   ),
   'Delivery' => 
@@ -1321,7 +1321,7 @@
   ),
   'DeliveryCore' => 
   array (
-    'path' => 'classes/Delivery.php',
+    'path' => 'classes\\Delivery.php',
     'type' => 'class',
   ),
   'DeliveryOptionsFinder' => 
@@ -1331,7 +1331,7 @@
   ),
   'DeliveryOptionsFinderCore' => 
   array (
-    'path' => 'classes/checkout/DeliveryOptionsFinder.php',
+    'path' => 'classes\\checkout\\DeliveryOptionsFinder.php',
     'type' => 'class',
   ),
   'DiscountController' => 
@@ -1341,7 +1341,7 @@
   ),
   'DiscountControllerCore' => 
   array (
-    'path' => 'controllers/front/DiscountController.php',
+    'path' => 'controllers\\front\\DiscountController.php',
     'type' => 'class',
   ),
   'Dispatcher' => 
@@ -1351,7 +1351,7 @@
   ),
   'DispatcherCore' => 
   array (
-    'path' => 'classes/Dispatcher.php',
+    'path' => 'classes\\Dispatcher.php',
     'type' => 'class',
   ),
   'DummyAdminController' => 
@@ -1361,7 +1361,7 @@
   ),
   'DummyAdminControllerCore' => 
   array (
-    'path' => 'controllers/admin/DummyAdminController.php',
+    'path' => 'controllers\\admin\\DummyAdminController.php',
     'type' => 'class',
   ),
   'Employee' => 
@@ -1371,7 +1371,7 @@
   ),
   'EmployeeCore' => 
   array (
-    'path' => 'classes/Employee.php',
+    'path' => 'classes\\Employee.php',
     'type' => 'class',
   ),
   'EmployeeSession' => 
@@ -1381,7 +1381,7 @@
   ),
   'EmployeeSessionCore' => 
   array (
-    'path' => 'classes/EmployeeSession.php',
+    'path' => 'classes\\EmployeeSession.php',
     'type' => 'class',
   ),
   'Feature' => 
@@ -1391,7 +1391,7 @@
   ),
   'FeatureCore' => 
   array (
-    'path' => 'classes/Feature.php',
+    'path' => 'classes\\Feature.php',
     'type' => 'class',
   ),
   'FeatureFlag' => 
@@ -1401,7 +1401,7 @@
   ),
   'FeatureFlagCore' => 
   array (
-    'path' => 'classes/FeatureFlag.php',
+    'path' => 'classes\\FeatureFlag.php',
     'type' => 'class',
   ),
   'FeatureLang' => 
@@ -1411,7 +1411,7 @@
   ),
   'FeatureLangCore' => 
   array (
-    'path' => 'classes/lang/FeatureLang.php',
+    'path' => 'classes\\lang\\FeatureLang.php',
     'type' => 'class',
   ),
   'FeatureValue' => 
@@ -1421,7 +1421,7 @@
   ),
   'FeatureValueCore' => 
   array (
-    'path' => 'classes/FeatureValue.php',
+    'path' => 'classes\\FeatureValue.php',
     'type' => 'class',
   ),
   'FeatureValueLang' => 
@@ -1431,7 +1431,7 @@
   ),
   'FeatureValueLangCore' => 
   array (
-    'path' => 'classes/lang/FeatureValueLang.php',
+    'path' => 'classes\\lang\\FeatureValueLang.php',
     'type' => 'class',
   ),
   'FileLogger' => 
@@ -1441,7 +1441,7 @@
   ),
   'FileLoggerCore' => 
   array (
-    'path' => 'classes/log/FileLogger.php',
+    'path' => 'classes\\log\\FileLogger.php',
     'type' => 'class',
   ),
   'FileUploader' => 
@@ -1451,7 +1451,7 @@
   ),
   'FileUploaderCore' => 
   array (
-    'path' => 'classes/FileUploader.php',
+    'path' => 'classes\\FileUploader.php',
     'type' => 'class',
   ),
   'FormField' => 
@@ -1461,17 +1461,17 @@
   ),
   'FormFieldCore' => 
   array (
-    'path' => 'classes/form/FormField.php',
+    'path' => 'classes\\form\\FormField.php',
     'type' => 'class',
   ),
   'FormFormatterInterface' => 
   array (
-    'path' => 'classes/form/FormFormatterInterface.php',
+    'path' => 'classes\\form\\FormFormatterInterface.php',
     'type' => 'interface',
   ),
   'FormInterface' => 
   array (
-    'path' => 'classes/form/FormInterface.php',
+    'path' => 'classes\\form\\FormInterface.php',
     'type' => 'interface',
   ),
   'FrontController' => 
@@ -1481,7 +1481,7 @@
   ),
   'FrontControllerCore' => 
   array (
-    'path' => 'classes/controller/FrontController.php',
+    'path' => 'classes\\controller\\FrontController.php',
     'type' => 'class',
   ),
   'Gender' => 
@@ -1491,7 +1491,7 @@
   ),
   'GenderCore' => 
   array (
-    'path' => 'classes/Gender.php',
+    'path' => 'classes\\Gender.php',
     'type' => 'class',
   ),
   'GenderLang' => 
@@ -1501,7 +1501,7 @@
   ),
   'GenderLangCore' => 
   array (
-    'path' => 'classes/lang/GenderLang.php',
+    'path' => 'classes\\lang\\GenderLang.php',
     'type' => 'class',
   ),
   'GetFileController' => 
@@ -1511,7 +1511,7 @@
   ),
   'GetFileControllerCore' => 
   array (
-    'path' => 'controllers/front/GetFileController.php',
+    'path' => 'controllers\\front\\GetFileController.php',
     'type' => 'class',
   ),
   'Group' => 
@@ -1521,7 +1521,7 @@
   ),
   'GroupCore' => 
   array (
-    'path' => 'classes/Group.php',
+    'path' => 'classes\\Group.php',
     'type' => 'class',
   ),
   'GroupLang' => 
@@ -1531,7 +1531,7 @@
   ),
   'GroupLangCore' => 
   array (
-    'path' => 'classes/lang/GroupLang.php',
+    'path' => 'classes\\lang\\GroupLang.php',
     'type' => 'class',
   ),
   'GroupReduction' => 
@@ -1541,7 +1541,7 @@
   ),
   'GroupReductionCore' => 
   array (
-    'path' => 'classes/GroupReduction.php',
+    'path' => 'classes\\GroupReduction.php',
     'type' => 'class',
   ),
   'Guest' => 
@@ -1551,7 +1551,7 @@
   ),
   'GuestCore' => 
   array (
-    'path' => 'classes/Guest.php',
+    'path' => 'classes\\Guest.php',
     'type' => 'class',
   ),
   'GuestTrackingController' => 
@@ -1561,7 +1561,7 @@
   ),
   'GuestTrackingControllerCore' => 
   array (
-    'path' => 'controllers/front/GuestTrackingController.php',
+    'path' => 'controllers\\front\\GuestTrackingController.php',
     'type' => 'class',
   ),
   'HTMLTemplate' => 
@@ -1571,7 +1571,7 @@
   ),
   'HTMLTemplateCore' => 
   array (
-    'path' => 'classes/pdf/HTMLTemplate.php',
+    'path' => 'classes\\pdf\\HTMLTemplate.php',
     'type' => 'abstract class',
   ),
   'HTMLTemplateDeliverySlip' => 
@@ -1581,7 +1581,7 @@
   ),
   'HTMLTemplateDeliverySlipCore' => 
   array (
-    'path' => 'classes/pdf/HTMLTemplateDeliverySlip.php',
+    'path' => 'classes\\pdf\\HTMLTemplateDeliverySlip.php',
     'type' => 'class',
   ),
   'HTMLTemplateInvoice' => 
@@ -1591,7 +1591,7 @@
   ),
   'HTMLTemplateInvoiceCore' => 
   array (
-    'path' => 'classes/pdf/HTMLTemplateInvoice.php',
+    'path' => 'classes\\pdf\\HTMLTemplateInvoice.php',
     'type' => 'class',
   ),
   'HTMLTemplateOrderReturn' => 
@@ -1601,7 +1601,7 @@
   ),
   'HTMLTemplateOrderReturnCore' => 
   array (
-    'path' => 'classes/pdf/HTMLTemplateOrderReturn.php',
+    'path' => 'classes\\pdf\\HTMLTemplateOrderReturn.php',
     'type' => 'class',
   ),
   'HTMLTemplateOrderSlip' => 
@@ -1611,7 +1611,7 @@
   ),
   'HTMLTemplateOrderSlipCore' => 
   array (
-    'path' => 'classes/pdf/HTMLTemplateOrderSlip.php',
+    'path' => 'classes\\pdf\\HTMLTemplateOrderSlip.php',
     'type' => 'class',
   ),
   'HTMLTemplateSupplyOrderForm' => 
@@ -1621,7 +1621,7 @@
   ),
   'HTMLTemplateSupplyOrderFormCore' => 
   array (
-    'path' => 'classes/pdf/HTMLTemplateSupplyOrderForm.php',
+    'path' => 'classes\\pdf\\HTMLTemplateSupplyOrderForm.php',
     'type' => 'class',
   ),
   'Helper' => 
@@ -1636,12 +1636,12 @@
   ),
   'HelperCalendarCore' => 
   array (
-    'path' => 'classes/helper/HelperCalendar.php',
+    'path' => 'classes\\helper\\HelperCalendar.php',
     'type' => 'class',
   ),
   'HelperCore' => 
   array (
-    'path' => 'classes/helper/Helper.php',
+    'path' => 'classes\\helper\\Helper.php',
     'type' => 'class',
   ),
   'HelperForm' => 
@@ -1651,7 +1651,7 @@
   ),
   'HelperFormCore' => 
   array (
-    'path' => 'classes/helper/HelperForm.php',
+    'path' => 'classes\\helper\\HelperForm.php',
     'type' => 'class',
   ),
   'HelperImageUploader' => 
@@ -1661,7 +1661,7 @@
   ),
   'HelperImageUploaderCore' => 
   array (
-    'path' => 'classes/helper/HelperImageUploader.php',
+    'path' => 'classes\\helper\\HelperImageUploader.php',
     'type' => 'class',
   ),
   'HelperKpi' => 
@@ -1671,7 +1671,7 @@
   ),
   'HelperKpiCore' => 
   array (
-    'path' => 'classes/helper/HelperKpi.php',
+    'path' => 'classes\\helper\\HelperKpi.php',
     'type' => 'class',
   ),
   'HelperKpiRow' => 
@@ -1681,7 +1681,7 @@
   ),
   'HelperKpiRowCore' => 
   array (
-    'path' => 'classes/helper/HelperKpiRow.php',
+    'path' => 'classes\\helper\\HelperKpiRow.php',
     'type' => 'class',
   ),
   'HelperList' => 
@@ -1691,7 +1691,7 @@
   ),
   'HelperListCore' => 
   array (
-    'path' => 'classes/helper/HelperList.php',
+    'path' => 'classes\\helper\\HelperList.php',
     'type' => 'class',
   ),
   'HelperOptions' => 
@@ -1701,7 +1701,7 @@
   ),
   'HelperOptionsCore' => 
   array (
-    'path' => 'classes/helper/HelperOptions.php',
+    'path' => 'classes\\helper\\HelperOptions.php',
     'type' => 'class',
   ),
   'HelperShop' => 
@@ -1711,7 +1711,7 @@
   ),
   'HelperShopCore' => 
   array (
-    'path' => 'classes/helper/HelperShop.php',
+    'path' => 'classes\\helper\\HelperShop.php',
     'type' => 'class',
   ),
   'HelperTreeCategories' => 
@@ -1721,7 +1721,7 @@
   ),
   'HelperTreeCategoriesCore' => 
   array (
-    'path' => 'classes/helper/HelperTreeCategories.php',
+    'path' => 'classes\\helper\\HelperTreeCategories.php',
     'type' => 'class',
   ),
   'HelperTreeShops' => 
@@ -1731,7 +1731,7 @@
   ),
   'HelperTreeShopsCore' => 
   array (
-    'path' => 'classes/helper/HelperTreeShops.php',
+    'path' => 'classes\\helper\\HelperTreeShops.php',
     'type' => 'class',
   ),
   'HelperUploader' => 
@@ -1741,7 +1741,7 @@
   ),
   'HelperUploaderCore' => 
   array (
-    'path' => 'classes/helper/HelperUploader.php',
+    'path' => 'classes\\helper\\HelperUploader.php',
     'type' => 'class',
   ),
   'HelperView' => 
@@ -1751,7 +1751,7 @@
   ),
   'HelperViewCore' => 
   array (
-    'path' => 'classes/helper/HelperView.php',
+    'path' => 'classes\\helper\\HelperView.php',
     'type' => 'class',
   ),
   'HistoryController' => 
@@ -1761,7 +1761,7 @@
   ),
   'HistoryControllerCore' => 
   array (
-    'path' => 'controllers/front/HistoryController.php',
+    'path' => 'controllers\\front\\HistoryController.php',
     'type' => 'class',
   ),
   'Hook' => 
@@ -1771,7 +1771,7 @@
   ),
   'HookCore' => 
   array (
-    'path' => 'classes/Hook.php',
+    'path' => 'classes\\Hook.php',
     'type' => 'class',
   ),
   'ITreeToolbar' => 
@@ -1786,12 +1786,12 @@
   ),
   'ITreeToolbarButtonCore' => 
   array (
-    'path' => 'classes/tree/ITreeToolbarButton.php',
+    'path' => 'classes\\tree\\ITreeToolbarButton.php',
     'type' => 'interface',
   ),
   'ITreeToolbarCore' => 
   array (
-    'path' => 'classes/tree/ITreeToolbar.php',
+    'path' => 'classes\\tree\\ITreeToolbar.php',
     'type' => 'interface',
   ),
   'IdentityController' => 
@@ -1801,7 +1801,7 @@
   ),
   'IdentityControllerCore' => 
   array (
-    'path' => 'controllers/front/IdentityController.php',
+    'path' => 'controllers\\front\\IdentityController.php',
     'type' => 'class',
   ),
   'Image' => 
@@ -1811,7 +1811,7 @@
   ),
   'ImageCore' => 
   array (
-    'path' => 'classes/Image.php',
+    'path' => 'classes\\Image.php',
     'type' => 'class',
   ),
   'ImageManager' => 
@@ -1821,7 +1821,7 @@
   ),
   'ImageManagerCore' => 
   array (
-    'path' => 'classes/ImageManager.php',
+    'path' => 'classes\\ImageManager.php',
     'type' => 'class',
   ),
   'ImageType' => 
@@ -1831,7 +1831,7 @@
   ),
   'ImageTypeCore' => 
   array (
-    'path' => 'classes/ImageType.php',
+    'path' => 'classes\\ImageType.php',
     'type' => 'class',
   ),
   'IndexController' => 
@@ -1841,7 +1841,7 @@
   ),
   'IndexControllerCore' => 
   array (
-    'path' => 'controllers/front/IndexController.php',
+    'path' => 'controllers\\front\\IndexController.php',
     'type' => 'class',
   ),
   'JavascriptManager' => 
@@ -1851,7 +1851,7 @@
   ),
   'JavascriptManagerCore' => 
   array (
-    'path' => 'classes/assets/JavascriptManager.php',
+    'path' => 'classes\\assets\\JavascriptManager.php',
     'type' => 'class',
   ),
   'JsMinifier' => 
@@ -1861,7 +1861,7 @@
   ),
   'JsMinifierCore' => 
   array (
-    'path' => 'classes/assets/JsMinifier.php',
+    'path' => 'classes\\assets\\JsMinifier.php',
     'type' => 'class',
   ),
   'Language' => 
@@ -1871,12 +1871,12 @@
   ),
   'LanguageCore' => 
   array (
-    'path' => 'classes/Language.php',
+    'path' => 'classes\\Language.php',
     'type' => 'class',
   ),
   'LegacyCompilerPass' => 
   array (
-    'path' => 'classes/container/LegacyCompilerPass.php',
+    'path' => 'classes\\container\\LegacyCompilerPass.php',
     'type' => 'class',
   ),
   'Link' => 
@@ -1886,7 +1886,7 @@
   ),
   'LinkCore' => 
   array (
-    'path' => 'classes/Link.php',
+    'path' => 'classes\\Link.php',
     'type' => 'class',
   ),
   'LinkProxy' => 
@@ -1896,7 +1896,7 @@
   ),
   'LinkProxyCore' => 
   array (
-    'path' => 'classes/proxy/LinkProxy.php',
+    'path' => 'classes\\proxy\\LinkProxy.php',
     'type' => 'class',
   ),
   'LocalizationPack' => 
@@ -1906,7 +1906,7 @@
   ),
   'LocalizationPackCore' => 
   array (
-    'path' => 'classes/LocalizationPack.php',
+    'path' => 'classes\\LocalizationPack.php',
     'type' => 'class',
   ),
   'Mail' => 
@@ -1916,12 +1916,12 @@
   ),
   'MailCore' => 
   array (
-    'path' => 'classes/Mail.php',
+    'path' => 'classes\\Mail.php',
     'type' => 'class',
   ),
   'Manufacturer' => 
   array (
-    'path' => NULL,
+    'path' => 'override\\classes\\Manufacturer.php',
     'type' => 'class',
   ),
   'ManufacturerAddress' => 
@@ -1931,7 +1931,7 @@
   ),
   'ManufacturerAddressCore' => 
   array (
-    'path' => 'classes/ManufacturerAddress.php',
+    'path' => 'classes\\ManufacturerAddress.php',
     'type' => 'class',
   ),
   'ManufacturerController' => 
@@ -1941,12 +1941,12 @@
   ),
   'ManufacturerControllerCore' => 
   array (
-    'path' => 'controllers/front/listing/ManufacturerController.php',
+    'path' => 'controllers\\front\\listing\\ManufacturerController.php',
     'type' => 'class',
   ),
   'ManufacturerCore' => 
   array (
-    'path' => 'classes/Manufacturer.php',
+    'path' => 'classes\\Manufacturer.php',
     'type' => 'class',
   ),
   'Media' => 
@@ -1956,7 +1956,7 @@
   ),
   'MediaCore' => 
   array (
-    'path' => 'classes/Media.php',
+    'path' => 'classes\\Media.php',
     'type' => 'class',
   ),
   'Message' => 
@@ -1966,7 +1966,7 @@
   ),
   'MessageCore' => 
   array (
-    'path' => 'classes/Message.php',
+    'path' => 'classes\\Message.php',
     'type' => 'class',
   ),
   'Meta' => 
@@ -1976,7 +1976,7 @@
   ),
   'MetaCore' => 
   array (
-    'path' => 'classes/Meta.php',
+    'path' => 'classes\\Meta.php',
     'type' => 'class',
   ),
   'MetaLang' => 
@@ -1986,7 +1986,7 @@
   ),
   'MetaLangCore' => 
   array (
-    'path' => 'classes/lang/MetaLang.php',
+    'path' => 'classes\\lang\\MetaLang.php',
     'type' => 'class',
   ),
   'Module' => 
@@ -2001,12 +2001,12 @@
   ),
   'ModuleAdminControllerCore' => 
   array (
-    'path' => 'classes/controller/ModuleAdminController.php',
+    'path' => 'classes\\controller\\ModuleAdminController.php',
     'type' => 'abstract class',
   ),
   'ModuleCore' => 
   array (
-    'path' => 'classes/module/Module.php',
+    'path' => 'classes\\module\\Module.php',
     'type' => 'abstract class',
   ),
   'ModuleFrontController' => 
@@ -2016,7 +2016,7 @@
   ),
   'ModuleFrontControllerCore' => 
   array (
-    'path' => 'classes/controller/ModuleFrontController.php',
+    'path' => 'classes\\controller\\ModuleFrontController.php',
     'type' => 'class',
   ),
   'ModuleGraph' => 
@@ -2026,7 +2026,7 @@
   ),
   'ModuleGraphCore' => 
   array (
-    'path' => 'classes/module/ModuleGraph.php',
+    'path' => 'classes\\module\\ModuleGraph.php',
     'type' => 'abstract class',
   ),
   'ModuleGraphEngine' => 
@@ -2036,7 +2036,7 @@
   ),
   'ModuleGraphEngineCore' => 
   array (
-    'path' => 'classes/module/ModuleGraphEngine.php',
+    'path' => 'classes\\module\\ModuleGraphEngine.php',
     'type' => 'abstract class',
   ),
   'ModuleGrid' => 
@@ -2046,7 +2046,7 @@
   ),
   'ModuleGridCore' => 
   array (
-    'path' => 'classes/module/ModuleGrid.php',
+    'path' => 'classes\\module\\ModuleGrid.php',
     'type' => 'abstract class',
   ),
   'ModuleGridEngine' => 
@@ -2056,7 +2056,7 @@
   ),
   'ModuleGridEngineCore' => 
   array (
-    'path' => 'classes/module/ModuleGridEngine.php',
+    'path' => 'classes\\module\\ModuleGridEngine.php',
     'type' => 'abstract class',
   ),
   'MyAccountController' => 
@@ -2066,7 +2066,7 @@
   ),
   'MyAccountControllerCore' => 
   array (
-    'path' => 'controllers/front/MyAccountController.php',
+    'path' => 'controllers\\front\\MyAccountController.php',
     'type' => 'class',
   ),
   'NewProductsController' => 
@@ -2076,7 +2076,7 @@
   ),
   'NewProductsControllerCore' => 
   array (
-    'path' => 'controllers/front/listing/NewProductsController.php',
+    'path' => 'controllers\\front\\listing\\NewProductsController.php',
     'type' => 'class',
   ),
   'Notification' => 
@@ -2086,12 +2086,12 @@
   ),
   'NotificationCore' => 
   array (
-    'path' => 'classes/Notification.php',
+    'path' => 'classes\\Notification.php',
     'type' => 'class',
   ),
   'NullLogger' => 
   array (
-    'path' => 'classes/log/NullLogger.php',
+    'path' => 'classes\\log\\NullLogger.php',
     'type' => 'class',
   ),
   'ObjectModel' => 
@@ -2101,7 +2101,7 @@
   ),
   'ObjectModelCore' => 
   array (
-    'path' => 'classes/ObjectModel.php',
+    'path' => 'classes\\ObjectModel.php',
     'type' => 'abstract class',
   ),
   'Order' => 
@@ -2116,7 +2116,7 @@
   ),
   'OrderCarrierCore' => 
   array (
-    'path' => 'classes/order/OrderCarrier.php',
+    'path' => 'classes\\order\\OrderCarrier.php',
     'type' => 'class',
   ),
   'OrderCartRule' => 
@@ -2126,7 +2126,7 @@
   ),
   'OrderCartRuleCore' => 
   array (
-    'path' => 'classes/order/OrderCartRule.php',
+    'path' => 'classes\\order\\OrderCartRule.php',
     'type' => 'class',
   ),
   'OrderConfirmationController' => 
@@ -2136,7 +2136,7 @@
   ),
   'OrderConfirmationControllerCore' => 
   array (
-    'path' => 'controllers/front/OrderConfirmationController.php',
+    'path' => 'controllers\\front\\OrderConfirmationController.php',
     'type' => 'class',
   ),
   'OrderController' => 
@@ -2146,12 +2146,12 @@
   ),
   'OrderControllerCore' => 
   array (
-    'path' => 'controllers/front/OrderController.php',
+    'path' => 'controllers\\front\\OrderController.php',
     'type' => 'class',
   ),
   'OrderCore' => 
   array (
-    'path' => 'classes/order/Order.php',
+    'path' => 'classes\\order\\Order.php',
     'type' => 'class',
   ),
   'OrderDetail' => 
@@ -2166,12 +2166,12 @@
   ),
   'OrderDetailControllerCore' => 
   array (
-    'path' => 'controllers/front/OrderDetailController.php',
+    'path' => 'controllers\\front\\OrderDetailController.php',
     'type' => 'class',
   ),
   'OrderDetailCore' => 
   array (
-    'path' => 'classes/order/OrderDetail.php',
+    'path' => 'classes\\order\\OrderDetail.php',
     'type' => 'class',
   ),
   'OrderFollowController' => 
@@ -2181,7 +2181,7 @@
   ),
   'OrderFollowControllerCore' => 
   array (
-    'path' => 'controllers/front/OrderFollowController.php',
+    'path' => 'controllers\\front\\OrderFollowController.php',
     'type' => 'class',
   ),
   'OrderHistory' => 
@@ -2191,7 +2191,7 @@
   ),
   'OrderHistoryCore' => 
   array (
-    'path' => 'classes/order/OrderHistory.php',
+    'path' => 'classes\\order\\OrderHistory.php',
     'type' => 'class',
   ),
   'OrderInvoice' => 
@@ -2201,7 +2201,7 @@
   ),
   'OrderInvoiceCore' => 
   array (
-    'path' => 'classes/order/OrderInvoice.php',
+    'path' => 'classes\\order\\OrderInvoice.php',
     'type' => 'class',
   ),
   'OrderMessage' => 
@@ -2211,7 +2211,7 @@
   ),
   'OrderMessageCore' => 
   array (
-    'path' => 'classes/order/OrderMessage.php',
+    'path' => 'classes\\order\\OrderMessage.php',
     'type' => 'class',
   ),
   'OrderMessageLang' => 
@@ -2221,7 +2221,7 @@
   ),
   'OrderMessageLangCore' => 
   array (
-    'path' => 'classes/lang/OrderMessageLang.php',
+    'path' => 'classes\\lang\\OrderMessageLang.php',
     'type' => 'class',
   ),
   'OrderPayment' => 
@@ -2231,7 +2231,7 @@
   ),
   'OrderPaymentCore' => 
   array (
-    'path' => 'classes/order/OrderPayment.php',
+    'path' => 'classes\\order\\OrderPayment.php',
     'type' => 'class',
   ),
   'OrderReturn' => 
@@ -2246,12 +2246,12 @@
   ),
   'OrderReturnControllerCore' => 
   array (
-    'path' => 'controllers/front/OrderReturnController.php',
+    'path' => 'controllers\\front\\OrderReturnController.php',
     'type' => 'class',
   ),
   'OrderReturnCore' => 
   array (
-    'path' => 'classes/order/OrderReturn.php',
+    'path' => 'classes\\order\\OrderReturn.php',
     'type' => 'class',
   ),
   'OrderReturnState' => 
@@ -2261,7 +2261,7 @@
   ),
   'OrderReturnStateCore' => 
   array (
-    'path' => 'classes/order/OrderReturnState.php',
+    'path' => 'classes\\order\\OrderReturnState.php',
     'type' => 'class',
   ),
   'OrderReturnStateLang' => 
@@ -2271,7 +2271,7 @@
   ),
   'OrderReturnStateLangCore' => 
   array (
-    'path' => 'classes/lang/OrderReturnStateLang.php',
+    'path' => 'classes\\lang\\OrderReturnStateLang.php',
     'type' => 'class',
   ),
   'OrderSlip' => 
@@ -2286,12 +2286,12 @@
   ),
   'OrderSlipControllerCore' => 
   array (
-    'path' => 'controllers/front/OrderSlipController.php',
+    'path' => 'controllers\\front\\OrderSlipController.php',
     'type' => 'class',
   ),
   'OrderSlipCore' => 
   array (
-    'path' => 'classes/order/OrderSlip.php',
+    'path' => 'classes\\order\\OrderSlip.php',
     'type' => 'class',
   ),
   'OrderState' => 
@@ -2301,7 +2301,7 @@
   ),
   'OrderStateCore' => 
   array (
-    'path' => 'classes/order/OrderState.php',
+    'path' => 'classes\\order\\OrderState.php',
     'type' => 'class',
   ),
   'OrderStateLang' => 
@@ -2311,7 +2311,7 @@
   ),
   'OrderStateLangCore' => 
   array (
-    'path' => 'classes/lang/OrderStateLang.php',
+    'path' => 'classes\\lang\\OrderStateLang.php',
     'type' => 'class',
   ),
   'PDF' => 
@@ -2321,7 +2321,7 @@
   ),
   'PDFCore' => 
   array (
-    'path' => 'classes/pdf/PDF.php',
+    'path' => 'classes\\pdf\\PDF.php',
     'type' => 'class',
   ),
   'PDFGenerator' => 
@@ -2331,12 +2331,12 @@
   ),
   'PDFGeneratorCore' => 
   array (
-    'path' => 'classes/pdf/PDFGenerator.php',
+    'path' => 'classes\\pdf\\PDFGenerator.php',
     'type' => 'class',
   ),
   'PSRLoggerAdapter' => 
   array (
-    'path' => 'classes/log/PSRLoggerAdapter.php',
+    'path' => 'classes\\log\\PSRLoggerAdapter.php',
     'type' => 'class',
   ),
   'Pack' => 
@@ -2346,7 +2346,7 @@
   ),
   'PackCore' => 
   array (
-    'path' => 'classes/Pack.php',
+    'path' => 'classes\\Pack.php',
     'type' => 'class',
   ),
   'Page' => 
@@ -2356,7 +2356,7 @@
   ),
   'PageCore' => 
   array (
-    'path' => 'classes/Page.php',
+    'path' => 'classes\\Page.php',
     'type' => 'class',
   ),
   'PageNotFoundController' => 
@@ -2366,7 +2366,7 @@
   ),
   'PageNotFoundControllerCore' => 
   array (
-    'path' => 'controllers/front/PageNotFoundController.php',
+    'path' => 'controllers\\front\\PageNotFoundController.php',
     'type' => 'class',
   ),
   'PasswordController' => 
@@ -2376,12 +2376,12 @@
   ),
   'PasswordControllerCore' => 
   array (
-    'path' => 'controllers/front/PasswordController.php',
+    'path' => 'controllers\\front\\PasswordController.php',
     'type' => 'class',
   ),
   'PaymentFree' => 
   array (
-    'path' => 'classes/PaymentFree.php',
+    'path' => 'classes\\PaymentFree.php',
     'type' => 'class',
   ),
   'PaymentModule' => 
@@ -2391,7 +2391,7 @@
   ),
   'PaymentModuleCore' => 
   array (
-    'path' => 'classes/PaymentModule.php',
+    'path' => 'classes\\PaymentModule.php',
     'type' => 'abstract class',
   ),
   'PaymentOptionsFinder' => 
@@ -2401,7 +2401,7 @@
   ),
   'PaymentOptionsFinderCore' => 
   array (
-    'path' => 'classes/checkout/PaymentOptionsFinder.php',
+    'path' => 'classes\\checkout\\PaymentOptionsFinder.php',
     'type' => 'class',
   ),
   'PdfInvoiceController' => 
@@ -2411,7 +2411,7 @@
   ),
   'PdfInvoiceControllerCore' => 
   array (
-    'path' => 'controllers/front/PdfInvoiceController.php',
+    'path' => 'controllers\\front\\PdfInvoiceController.php',
     'type' => 'class',
   ),
   'PdfOrderReturnController' => 
@@ -2421,7 +2421,7 @@
   ),
   'PdfOrderReturnControllerCore' => 
   array (
-    'path' => 'controllers/front/PdfOrderReturnController.php',
+    'path' => 'controllers\\front\\PdfOrderReturnController.php',
     'type' => 'class',
   ),
   'PdfOrderSlipController' => 
@@ -2431,7 +2431,7 @@
   ),
   'PdfOrderSlipControllerCore' => 
   array (
-    'path' => 'controllers/front/PdfOrderSlipController.php',
+    'path' => 'controllers\\front\\PdfOrderSlipController.php',
     'type' => 'class',
   ),
   'PhpEncryption' => 
@@ -2441,7 +2441,7 @@
   ),
   'PhpEncryptionCore' => 
   array (
-    'path' => 'classes/PhpEncryption.php',
+    'path' => 'classes\\PhpEncryption.php',
     'type' => 'class',
   ),
   'PhpEncryptionEngine' => 
@@ -2451,12 +2451,12 @@
   ),
   'PhpEncryptionEngineCore' => 
   array (
-    'path' => 'classes/PhpEncryptionEngine.php',
+    'path' => 'classes\\PhpEncryptionEngine.php',
     'type' => 'class',
   ),
   'PrestaShopAutoload' => 
   array (
-    'path' => 'classes/PrestaShopAutoload.php',
+    'path' => 'classes\\PrestaShopAutoload.php',
     'type' => 'class',
   ),
   'PrestaShopBackup' => 
@@ -2466,7 +2466,7 @@
   ),
   'PrestaShopBackupCore' => 
   array (
-    'path' => 'classes/PrestaShopBackup.php',
+    'path' => 'classes\\PrestaShopBackup.php',
     'type' => 'class',
   ),
   'PrestaShopCollection' => 
@@ -2476,7 +2476,7 @@
   ),
   'PrestaShopCollectionCore' => 
   array (
-    'path' => 'classes/PrestaShopCollection.php',
+    'path' => 'classes\\PrestaShopCollection.php',
     'type' => 'class',
   ),
   'PrestaShopDatabaseException' => 
@@ -2486,7 +2486,7 @@
   ),
   'PrestaShopDatabaseExceptionCore' => 
   array (
-    'path' => 'classes/exception/PrestaShopDatabaseException.php',
+    'path' => 'classes\\exception\\PrestaShopDatabaseException.php',
     'type' => 'class',
   ),
   'PrestaShopException' => 
@@ -2496,7 +2496,7 @@
   ),
   'PrestaShopExceptionCore' => 
   array (
-    'path' => 'classes/exception/PrestaShopException.php',
+    'path' => 'classes\\exception\\PrestaShopException.php',
     'type' => 'class',
   ),
   'PrestaShopLogger' => 
@@ -2506,12 +2506,12 @@
   ),
   'PrestaShopLoggerCore' => 
   array (
-    'path' => 'classes/PrestaShopLogger.php',
+    'path' => 'classes\\PrestaShopLogger.php',
     'type' => 'class',
   ),
   'PrestaShopLoggerInterface' => 
   array (
-    'path' => 'classes/log/PrestaShopLoggerInterface.php',
+    'path' => 'classes\\log\\PrestaShopLoggerInterface.php',
     'type' => 'interface',
   ),
   'PrestaShopModuleException' => 
@@ -2521,7 +2521,7 @@
   ),
   'PrestaShopModuleExceptionCore' => 
   array (
-    'path' => 'classes/exception/PrestaShopModuleException.php',
+    'path' => 'classes\\exception\\PrestaShopModuleException.php',
     'type' => 'class',
   ),
   'PrestaShopObjectNotFoundException' => 
@@ -2531,7 +2531,7 @@
   ),
   'PrestaShopObjectNotFoundExceptionCore' => 
   array (
-    'path' => 'classes/exception/PrestaShopObjectNotFoundException.php',
+    'path' => 'classes\\exception\\PrestaShopObjectNotFoundException.php',
     'type' => 'class',
   ),
   'PrestaShopPaymentException' => 
@@ -2541,12 +2541,12 @@
   ),
   'PrestaShopPaymentExceptionCore' => 
   array (
-    'path' => 'classes/exception/PrestaShopPaymentException.php',
+    'path' => 'classes\\exception\\PrestaShopPaymentException.php',
     'type' => 'class',
   ),
   'PrestashopAssetsLibraries' => 
   array (
-    'path' => 'classes/assets/PrestashopAssetsLibraries.php',
+    'path' => 'classes\\assets\\PrestashopAssetsLibraries.php',
     'type' => 'class',
   ),
   'PricesDropController' => 
@@ -2556,7 +2556,7 @@
   ),
   'PricesDropControllerCore' => 
   array (
-    'path' => 'controllers/front/listing/PricesDropController.php',
+    'path' => 'controllers\\front\\listing\\PricesDropController.php',
     'type' => 'class',
   ),
   'Product' => 
@@ -2571,7 +2571,7 @@
   ),
   'ProductAssemblerCore' => 
   array (
-    'path' => 'classes/ProductAssembler.php',
+    'path' => 'classes\\ProductAssembler.php',
     'type' => 'class',
   ),
   'ProductAttribute' => 
@@ -2581,7 +2581,7 @@
   ),
   'ProductAttributeCore' => 
   array (
-    'path' => 'classes/ProductAttribute.php',
+    'path' => 'classes\\ProductAttribute.php',
     'type' => 'class',
   ),
   'ProductController' => 
@@ -2591,12 +2591,12 @@
   ),
   'ProductControllerCore' => 
   array (
-    'path' => 'controllers/front/ProductController.php',
+    'path' => 'controllers\\front\\ProductController.php',
     'type' => 'class',
   ),
   'ProductCore' => 
   array (
-    'path' => 'classes/Product.php',
+    'path' => 'classes\\Product.php',
     'type' => 'class',
   ),
   'ProductDownload' => 
@@ -2606,7 +2606,7 @@
   ),
   'ProductDownloadCore' => 
   array (
-    'path' => 'classes/ProductDownload.php',
+    'path' => 'classes\\ProductDownload.php',
     'type' => 'class',
   ),
   'ProductListingFrontController' => 
@@ -2616,7 +2616,7 @@
   ),
   'ProductListingFrontControllerCore' => 
   array (
-    'path' => 'classes/controller/ProductListingFrontController.php',
+    'path' => 'classes\\controller\\ProductListingFrontController.php',
     'type' => 'abstract class',
   ),
   'ProductPresenterFactory' => 
@@ -2626,7 +2626,7 @@
   ),
   'ProductPresenterFactoryCore' => 
   array (
-    'path' => 'classes/ProductPresenterFactory.php',
+    'path' => 'classes\\ProductPresenterFactory.php',
     'type' => 'class',
   ),
   'ProductPresentingFrontController' => 
@@ -2636,7 +2636,7 @@
   ),
   'ProductPresentingFrontControllerCore' => 
   array (
-    'path' => 'classes/controller/ProductPresentingFrontController.php',
+    'path' => 'classes\\controller\\ProductPresentingFrontController.php',
     'type' => 'abstract class',
   ),
   'ProductSale' => 
@@ -2646,7 +2646,7 @@
   ),
   'ProductSaleCore' => 
   array (
-    'path' => 'classes/ProductSale.php',
+    'path' => 'classes\\ProductSale.php',
     'type' => 'class',
   ),
   'ProductSupplier' => 
@@ -2656,7 +2656,7 @@
   ),
   'ProductSupplierCore' => 
   array (
-    'path' => 'classes/ProductSupplier.php',
+    'path' => 'classes\\ProductSupplier.php',
     'type' => 'class',
   ),
   'Profile' => 
@@ -2666,7 +2666,7 @@
   ),
   'ProfileCore' => 
   array (
-    'path' => 'classes/Profile.php',
+    'path' => 'classes\\Profile.php',
     'type' => 'class',
   ),
   'ProfileLang' => 
@@ -2676,7 +2676,7 @@
   ),
   'ProfileLangCore' => 
   array (
-    'path' => 'classes/lang/ProfileLang.php',
+    'path' => 'classes\\lang\\ProfileLang.php',
     'type' => 'class',
   ),
   'QqUploadedFileForm' => 
@@ -2686,7 +2686,7 @@
   ),
   'QqUploadedFileFormCore' => 
   array (
-    'path' => 'classes/QqUploadedFileForm.php',
+    'path' => 'classes\\QqUploadedFileForm.php',
     'type' => 'class',
   ),
   'QqUploadedFileXhr' => 
@@ -2696,7 +2696,7 @@
   ),
   'QqUploadedFileXhrCore' => 
   array (
-    'path' => 'classes/QqUploadedFileXhr.php',
+    'path' => 'classes\\QqUploadedFileXhr.php',
     'type' => 'class',
   ),
   'QuickAccess' => 
@@ -2706,7 +2706,7 @@
   ),
   'QuickAccessCore' => 
   array (
-    'path' => 'classes/QuickAccess.php',
+    'path' => 'classes\\QuickAccess.php',
     'type' => 'class',
   ),
   'QuickAccessLang' => 
@@ -2716,7 +2716,7 @@
   ),
   'QuickAccessLangCore' => 
   array (
-    'path' => 'classes/lang/QuickAccessLang.php',
+    'path' => 'classes\\lang\\QuickAccessLang.php',
     'type' => 'class',
   ),
   'RangePrice' => 
@@ -2726,7 +2726,7 @@
   ),
   'RangePriceCore' => 
   array (
-    'path' => 'classes/range/RangePrice.php',
+    'path' => 'classes\\range\\RangePrice.php',
     'type' => 'class',
   ),
   'RangeWeight' => 
@@ -2736,7 +2736,7 @@
   ),
   'RangeWeightCore' => 
   array (
-    'path' => 'classes/range/RangeWeight.php',
+    'path' => 'classes\\range\\RangeWeight.php',
     'type' => 'class',
   ),
   'RegistrationController' => 
@@ -2746,7 +2746,7 @@
   ),
   'RegistrationControllerCore' => 
   array (
-    'path' => 'controllers/front/RegistrationController.php',
+    'path' => 'controllers\\front\\RegistrationController.php',
     'type' => 'class',
   ),
   'RequestSql' => 
@@ -2756,7 +2756,7 @@
   ),
   'RequestSqlCore' => 
   array (
-    'path' => 'classes/RequestSql.php',
+    'path' => 'classes\\RequestSql.php',
     'type' => 'class',
   ),
   'Risk' => 
@@ -2766,7 +2766,7 @@
   ),
   'RiskCore' => 
   array (
-    'path' => 'classes/Risk.php',
+    'path' => 'classes\\Risk.php',
     'type' => 'class',
   ),
   'RiskLang' => 
@@ -2776,12 +2776,12 @@
   ),
   'RiskLangCore' => 
   array (
-    'path' => 'classes/lang/RiskLang.php',
+    'path' => 'classes\\lang\\RiskLang.php',
     'type' => 'class',
   ),
   'SQLUtils' => 
   array (
-    'path' => 'classes/webservice/SQLUtils.php',
+    'path' => 'classes\\webservice\\SQLUtils.php',
     'type' => 'class',
   ),
   'Search' => 
@@ -2796,12 +2796,12 @@
   ),
   'SearchControllerCore' => 
   array (
-    'path' => 'controllers/front/listing/SearchController.php',
+    'path' => 'controllers\\front\\listing\\SearchController.php',
     'type' => 'class',
   ),
   'SearchCore' => 
   array (
-    'path' => 'classes/Search.php',
+    'path' => 'classes\\Search.php',
     'type' => 'class',
   ),
   'SearchEngine' => 
@@ -2811,7 +2811,7 @@
   ),
   'SearchEngineCore' => 
   array (
-    'path' => 'classes/SearchEngine.php',
+    'path' => 'classes\\SearchEngine.php',
     'type' => 'class',
   ),
   'Shop' => 
@@ -2821,7 +2821,7 @@
   ),
   'ShopCore' => 
   array (
-    'path' => 'classes/shop/Shop.php',
+    'path' => 'classes\\shop\\Shop.php',
     'type' => 'class',
   ),
   'ShopGroup' => 
@@ -2831,7 +2831,7 @@
   ),
   'ShopGroupCore' => 
   array (
-    'path' => 'classes/shop/ShopGroup.php',
+    'path' => 'classes\\shop\\ShopGroup.php',
     'type' => 'class',
   ),
   'ShopUrl' => 
@@ -2841,7 +2841,7 @@
   ),
   'ShopUrlCore' => 
   array (
-    'path' => 'classes/shop/ShopUrl.php',
+    'path' => 'classes\\shop\\ShopUrl.php',
     'type' => 'class',
   ),
   'SitemapController' => 
@@ -2851,7 +2851,7 @@
   ),
   'SitemapControllerCore' => 
   array (
-    'path' => 'controllers/front/SitemapController.php',
+    'path' => 'controllers\\front\\SitemapController.php',
     'type' => 'class',
   ),
   'SmartyCustom' => 
@@ -2861,7 +2861,7 @@
   ),
   'SmartyCustomCore' => 
   array (
-    'path' => 'classes/Smarty/SmartyCustom.php',
+    'path' => 'classes\\Smarty\\SmartyCustom.php',
     'type' => 'class',
   ),
   'SmartyCustomTemplate' => 
@@ -2871,12 +2871,12 @@
   ),
   'SmartyCustomTemplateCore' => 
   array (
-    'path' => 'classes/Smarty/SmartyCustomTemplate.php',
+    'path' => 'classes\\Smarty\\SmartyCustomTemplate.php',
     'type' => 'class',
   ),
   'SmartyDev' => 
   array (
-    'path' => 'classes/Smarty/SmartyDev.php',
+    'path' => 'classes\\Smarty\\SmartyDev.php',
     'type' => 'class',
   ),
   'SmartyDevTemplate' => 
@@ -2886,12 +2886,12 @@
   ),
   'SmartyDevTemplateCore' => 
   array (
-    'path' => 'classes/Smarty/SmartyDevTemplate.php',
+    'path' => 'classes\\Smarty\\SmartyDevTemplate.php',
     'type' => 'class',
   ),
   'SmartyLazyRegister' => 
   array (
-    'path' => 'classes/Smarty/SmartyLazyRegister.php',
+    'path' => 'classes\\Smarty\\SmartyLazyRegister.php',
     'type' => 'class',
   ),
   'SmartyResourceModule' => 
@@ -2901,7 +2901,7 @@
   ),
   'SmartyResourceModuleCore' => 
   array (
-    'path' => 'classes/Smarty/SmartyResourceModule.php',
+    'path' => 'classes\\Smarty\\SmartyResourceModule.php',
     'type' => 'class',
   ),
   'SmartyResourceParent' => 
@@ -2911,7 +2911,7 @@
   ),
   'SmartyResourceParentCore' => 
   array (
-    'path' => 'classes/Smarty/SmartyResourceParent.php',
+    'path' => 'classes\\Smarty\\SmartyResourceParent.php',
     'type' => 'class',
   ),
   'SpecificPrice' => 
@@ -2921,7 +2921,7 @@
   ),
   'SpecificPriceCore' => 
   array (
-    'path' => 'classes/SpecificPrice.php',
+    'path' => 'classes\\SpecificPrice.php',
     'type' => 'class',
   ),
   'SpecificPriceFormatter' => 
@@ -2931,7 +2931,7 @@
   ),
   'SpecificPriceFormatterCore' => 
   array (
-    'path' => 'classes/product/SpecificPriceFormatter.php',
+    'path' => 'classes\\product\\SpecificPriceFormatter.php',
     'type' => 'class',
   ),
   'SpecificPriceRule' => 
@@ -2941,7 +2941,7 @@
   ),
   'SpecificPriceRuleCore' => 
   array (
-    'path' => 'classes/SpecificPriceRule.php',
+    'path' => 'classes\\SpecificPriceRule.php',
     'type' => 'class',
   ),
   'State' => 
@@ -2951,7 +2951,7 @@
   ),
   'StateCore' => 
   array (
-    'path' => 'classes/State.php',
+    'path' => 'classes\\State.php',
     'type' => 'class',
   ),
   'StatisticsController' => 
@@ -2961,7 +2961,7 @@
   ),
   'StatisticsControllerCore' => 
   array (
-    'path' => 'controllers/front/StatisticsController.php',
+    'path' => 'controllers\\front\\StatisticsController.php',
     'type' => 'class',
   ),
   'Stock' => 
@@ -2976,12 +2976,12 @@
   ),
   'StockAvailableCore' => 
   array (
-    'path' => 'classes/stock/StockAvailable.php',
+    'path' => 'classes\\stock\\StockAvailable.php',
     'type' => 'class',
   ),
   'StockCore' => 
   array (
-    'path' => 'classes/stock/Stock.php',
+    'path' => 'classes\\stock\\Stock.php',
     'type' => 'class',
   ),
   'StockManager' => 
@@ -2991,7 +2991,7 @@
   ),
   'StockManagerCore' => 
   array (
-    'path' => 'classes/stock/StockManager.php',
+    'path' => 'classes\\stock\\StockManager.php',
     'type' => 'class',
   ),
   'StockManagerFactory' => 
@@ -3001,12 +3001,12 @@
   ),
   'StockManagerFactoryCore' => 
   array (
-    'path' => 'classes/stock/StockManagerFactory.php',
+    'path' => 'classes\\stock\\StockManagerFactory.php',
     'type' => 'class',
   ),
   'StockManagerInterface' => 
   array (
-    'path' => 'classes/stock/StockManagerInterface.php',
+    'path' => 'classes\\stock\\StockManagerInterface.php',
     'type' => 'interface',
   ),
   'StockManagerModule' => 
@@ -3016,7 +3016,7 @@
   ),
   'StockManagerModuleCore' => 
   array (
-    'path' => 'classes/stock/StockManagerModule.php',
+    'path' => 'classes\\stock\\StockManagerModule.php',
     'type' => 'abstract class',
   ),
   'StockMvt' => 
@@ -3026,7 +3026,7 @@
   ),
   'StockMvtCore' => 
   array (
-    'path' => 'classes/stock/StockMvt.php',
+    'path' => 'classes\\stock\\StockMvt.php',
     'type' => 'class',
   ),
   'StockMvtReason' => 
@@ -3036,7 +3036,7 @@
   ),
   'StockMvtReasonCore' => 
   array (
-    'path' => 'classes/stock/StockMvtReason.php',
+    'path' => 'classes\\stock\\StockMvtReason.php',
     'type' => 'class',
   ),
   'StockMvtReasonLang' => 
@@ -3046,7 +3046,7 @@
   ),
   'StockMvtReasonLangCore' => 
   array (
-    'path' => 'classes/lang/StockMvtReasonLang.php',
+    'path' => 'classes\\lang\\StockMvtReasonLang.php',
     'type' => 'class',
   ),
   'StockMvtWS' => 
@@ -3056,7 +3056,7 @@
   ),
   'StockMvtWSCore' => 
   array (
-    'path' => 'classes/stock/StockMvtWS.php',
+    'path' => 'classes\\stock\\StockMvtWS.php',
     'type' => 'class',
   ),
   'Store' => 
@@ -3066,7 +3066,7 @@
   ),
   'StoreCore' => 
   array (
-    'path' => 'classes/Store.php',
+    'path' => 'classes\\Store.php',
     'type' => 'class',
   ),
   'StoresController' => 
@@ -3076,7 +3076,7 @@
   ),
   'StoresControllerCore' => 
   array (
-    'path' => 'controllers/front/StoresController.php',
+    'path' => 'controllers\\front\\StoresController.php',
     'type' => 'class',
   ),
   'StylesheetManager' => 
@@ -3086,12 +3086,12 @@
   ),
   'StylesheetManagerCore' => 
   array (
-    'path' => 'classes/assets/StylesheetManager.php',
+    'path' => 'classes\\assets\\StylesheetManager.php',
     'type' => 'class',
   ),
   'Supplier' => 
   array (
-    'path' => NULL,
+    'path' => 'override\\classes\\Supplier.php',
     'type' => 'class',
   ),
   'SupplierAddress' => 
@@ -3101,7 +3101,7 @@
   ),
   'SupplierAddressCore' => 
   array (
-    'path' => 'classes/SupplierAddress.php',
+    'path' => 'classes\\SupplierAddress.php',
     'type' => 'class',
   ),
   'SupplierController' => 
@@ -3111,12 +3111,12 @@
   ),
   'SupplierControllerCore' => 
   array (
-    'path' => 'controllers/front/listing/SupplierController.php',
+    'path' => 'controllers\\front\\listing\\SupplierController.php',
     'type' => 'class',
   ),
   'SupplierCore' => 
   array (
-    'path' => 'classes/Supplier.php',
+    'path' => 'classes\\Supplier.php',
     'type' => 'class',
   ),
   'SupplyOrder' => 
@@ -3126,7 +3126,7 @@
   ),
   'SupplyOrderCore' => 
   array (
-    'path' => 'classes/stock/SupplyOrder.php',
+    'path' => 'classes\\stock\\SupplyOrder.php',
     'type' => 'class',
   ),
   'SupplyOrderDetail' => 
@@ -3136,7 +3136,7 @@
   ),
   'SupplyOrderDetailCore' => 
   array (
-    'path' => 'classes/stock/SupplyOrderDetail.php',
+    'path' => 'classes\\stock\\SupplyOrderDetail.php',
     'type' => 'class',
   ),
   'SupplyOrderHistory' => 
@@ -3146,7 +3146,7 @@
   ),
   'SupplyOrderHistoryCore' => 
   array (
-    'path' => 'classes/stock/SupplyOrderHistory.php',
+    'path' => 'classes\\stock\\SupplyOrderHistory.php',
     'type' => 'class',
   ),
   'SupplyOrderReceiptHistory' => 
@@ -3156,7 +3156,7 @@
   ),
   'SupplyOrderReceiptHistoryCore' => 
   array (
-    'path' => 'classes/stock/SupplyOrderReceiptHistory.php',
+    'path' => 'classes\\stock\\SupplyOrderReceiptHistory.php',
     'type' => 'class',
   ),
   'SupplyOrderState' => 
@@ -3166,7 +3166,7 @@
   ),
   'SupplyOrderStateCore' => 
   array (
-    'path' => 'classes/stock/SupplyOrderState.php',
+    'path' => 'classes\\stock\\SupplyOrderState.php',
     'type' => 'class',
   ),
   'SupplyOrderStateLang' => 
@@ -3176,12 +3176,12 @@
   ),
   'SupplyOrderStateLangCore' => 
   array (
-    'path' => 'classes/lang/SupplyOrderStateLang.php',
+    'path' => 'classes\\lang\\SupplyOrderStateLang.php',
     'type' => 'class',
   ),
   'SymfonyConsoleLogger' => 
   array (
-    'path' => 'classes/log/SymfonyConsoleLogger.php',
+    'path' => 'classes\\log\\SymfonyConsoleLogger.php',
     'type' => 'class',
   ),
   'Tab' => 
@@ -3191,7 +3191,7 @@
   ),
   'TabCore' => 
   array (
-    'path' => 'classes/Tab.php',
+    'path' => 'classes\\Tab.php',
     'type' => 'class',
   ),
   'TabLang' => 
@@ -3201,7 +3201,7 @@
   ),
   'TabLangCore' => 
   array (
-    'path' => 'classes/lang/TabLang.php',
+    'path' => 'classes\\lang\\TabLang.php',
     'type' => 'class',
   ),
   'Tag' => 
@@ -3211,7 +3211,7 @@
   ),
   'TagCore' => 
   array (
-    'path' => 'classes/Tag.php',
+    'path' => 'classes\\Tag.php',
     'type' => 'class',
   ),
   'Tax' => 
@@ -3226,7 +3226,7 @@
   ),
   'TaxCalculatorCore' => 
   array (
-    'path' => 'classes/tax/TaxCalculator.php',
+    'path' => 'classes\\tax\\TaxCalculator.php',
     'type' => 'class',
   ),
   'TaxConfiguration' => 
@@ -3236,12 +3236,12 @@
   ),
   'TaxConfigurationCore' => 
   array (
-    'path' => 'classes/tax/TaxConfiguration.php',
+    'path' => 'classes\\tax\\TaxConfiguration.php',
     'type' => 'class',
   ),
   'TaxCore' => 
   array (
-    'path' => 'classes/tax/Tax.php',
+    'path' => 'classes\\tax\\Tax.php',
     'type' => 'class',
   ),
   'TaxManagerFactory' => 
@@ -3251,12 +3251,12 @@
   ),
   'TaxManagerFactoryCore' => 
   array (
-    'path' => 'classes/tax/TaxManagerFactory.php',
+    'path' => 'classes\\tax\\TaxManagerFactory.php',
     'type' => 'class',
   ),
   'TaxManagerInterface' => 
   array (
-    'path' => 'classes/tax/TaxManagerInterface.php',
+    'path' => 'classes\\tax\\TaxManagerInterface.php',
     'type' => 'interface',
   ),
   'TaxManagerModule' => 
@@ -3266,7 +3266,7 @@
   ),
   'TaxManagerModuleCore' => 
   array (
-    'path' => 'classes/tax/TaxManagerModule.php',
+    'path' => 'classes\\tax\\TaxManagerModule.php',
     'type' => 'abstract class',
   ),
   'TaxRule' => 
@@ -3276,7 +3276,7 @@
   ),
   'TaxRuleCore' => 
   array (
-    'path' => 'classes/tax/TaxRule.php',
+    'path' => 'classes\\tax\\TaxRule.php',
     'type' => 'class',
   ),
   'TaxRulesGroup' => 
@@ -3286,7 +3286,7 @@
   ),
   'TaxRulesGroupCore' => 
   array (
-    'path' => 'classes/tax/TaxRulesGroup.php',
+    'path' => 'classes\\tax\\TaxRulesGroup.php',
     'type' => 'class',
   ),
   'TaxRulesTaxManager' => 
@@ -3296,7 +3296,7 @@
   ),
   'TaxRulesTaxManagerCore' => 
   array (
-    'path' => 'classes/tax/TaxRulesTaxManager.php',
+    'path' => 'classes\\tax\\TaxRulesTaxManager.php',
     'type' => 'class',
   ),
   'TemplateFinder' => 
@@ -3306,7 +3306,7 @@
   ),
   'TemplateFinderCore' => 
   array (
-    'path' => 'classes/Smarty/TemplateFinder.php',
+    'path' => 'classes\\Smarty\\TemplateFinder.php',
     'type' => 'class',
   ),
   'ThemeLang' => 
@@ -3316,7 +3316,7 @@
   ),
   'ThemeLangCore' => 
   array (
-    'path' => 'classes/lang/ThemeLang.php',
+    'path' => 'classes\\lang\\ThemeLang.php',
     'type' => 'class',
   ),
   'Tools' => 
@@ -3326,7 +3326,7 @@
   ),
   'ToolsCore' => 
   array (
-    'path' => 'classes/Tools.php',
+    'path' => 'classes\\Tools.php',
     'type' => 'class',
   ),
   'Translate' => 
@@ -3336,7 +3336,7 @@
   ),
   'TranslateCore' => 
   array (
-    'path' => 'classes/Translate.php',
+    'path' => 'classes\\Translate.php',
     'type' => 'class',
   ),
   'TranslatedConfiguration' => 
@@ -3346,7 +3346,7 @@
   ),
   'TranslatedConfigurationCore' => 
   array (
-    'path' => 'classes/TranslatedConfiguration.php',
+    'path' => 'classes\\TranslatedConfiguration.php',
     'type' => 'class',
   ),
   'Tree' => 
@@ -3356,7 +3356,7 @@
   ),
   'TreeCore' => 
   array (
-    'path' => 'classes/tree/Tree.php',
+    'path' => 'classes\\tree\\Tree.php',
     'type' => 'class',
   ),
   'TreeToolbar' => 
@@ -3371,12 +3371,12 @@
   ),
   'TreeToolbarButtonCore' => 
   array (
-    'path' => 'classes/tree/TreeToolbarButton.php',
+    'path' => 'classes\\tree\\TreeToolbarButton.php',
     'type' => 'abstract class',
   ),
   'TreeToolbarCore' => 
   array (
-    'path' => 'classes/tree/TreeToolbar.php',
+    'path' => 'classes\\tree\\TreeToolbar.php',
     'type' => 'class',
   ),
   'TreeToolbarLink' => 
@@ -3386,7 +3386,7 @@
   ),
   'TreeToolbarLinkCore' => 
   array (
-    'path' => 'classes/tree/TreeToolbarLink.php',
+    'path' => 'classes\\tree\\TreeToolbarLink.php',
     'type' => 'class',
   ),
   'TreeToolbarSearch' => 
@@ -3401,12 +3401,12 @@
   ),
   'TreeToolbarSearchCategoriesCore' => 
   array (
-    'path' => 'classes/tree/TreeToolbarSearchCategories.php',
+    'path' => 'classes\\tree\\TreeToolbarSearchCategories.php',
     'type' => 'class',
   ),
   'TreeToolbarSearchCore' => 
   array (
-    'path' => 'classes/tree/TreeToolbarSearch.php',
+    'path' => 'classes\\tree\\TreeToolbarSearch.php',
     'type' => 'class',
   ),
   'Upgrader' => 
@@ -3416,7 +3416,7 @@
   ),
   'UpgraderCore' => 
   array (
-    'path' => 'classes/Upgrader.php',
+    'path' => 'classes\\Upgrader.php',
     'type' => 'class',
   ),
   'UploadController' => 
@@ -3426,7 +3426,7 @@
   ),
   'UploadControllerCore' => 
   array (
-    'path' => 'controllers/front/UploadController.php',
+    'path' => 'controllers\\front\\UploadController.php',
     'type' => 'class',
   ),
   'Uploader' => 
@@ -3436,7 +3436,7 @@
   ),
   'UploaderCore' => 
   array (
-    'path' => 'classes/Uploader.php',
+    'path' => 'classes\\Uploader.php',
     'type' => 'class',
   ),
   'Validate' => 
@@ -3451,12 +3451,12 @@
   ),
   'ValidateConstraintTranslatorCore' => 
   array (
-    'path' => 'classes/ValidateConstraintTranslator.php',
+    'path' => 'classes\\ValidateConstraintTranslator.php',
     'type' => 'class',
   ),
   'ValidateCore' => 
   array (
-    'path' => 'classes/Validate.php',
+    'path' => 'classes\\Validate.php',
     'type' => 'class',
   ),
   'Warehouse' => 
@@ -3471,12 +3471,12 @@
   ),
   'WarehouseAddressCore' => 
   array (
-    'path' => 'classes/WarehouseAddress.php',
+    'path' => 'classes\\WarehouseAddress.php',
     'type' => 'class',
   ),
   'WarehouseCore' => 
   array (
-    'path' => 'classes/stock/Warehouse.php',
+    'path' => 'classes\\stock\\Warehouse.php',
     'type' => 'class',
   ),
   'WarehouseProductLocation' => 
@@ -3486,7 +3486,7 @@
   ),
   'WarehouseProductLocationCore' => 
   array (
-    'path' => 'classes/stock/WarehouseProductLocation.php',
+    'path' => 'classes\\stock\\WarehouseProductLocation.php',
     'type' => 'class',
   ),
   'WebserviceException' => 
@@ -3496,7 +3496,7 @@
   ),
   'WebserviceExceptionCore' => 
   array (
-    'path' => 'classes/webservice/WebserviceException.php',
+    'path' => 'classes\\webservice\\WebserviceException.php',
     'type' => 'class',
   ),
   'WebserviceKey' => 
@@ -3506,7 +3506,7 @@
   ),
   'WebserviceKeyCore' => 
   array (
-    'path' => 'classes/webservice/WebserviceKey.php',
+    'path' => 'classes\\webservice\\WebserviceKey.php',
     'type' => 'class',
   ),
   'WebserviceOutputBuilder' => 
@@ -3516,12 +3516,12 @@
   ),
   'WebserviceOutputBuilderCore' => 
   array (
-    'path' => 'classes/webservice/WebserviceOutputBuilder.php',
+    'path' => 'classes\\webservice\\WebserviceOutputBuilder.php',
     'type' => 'class',
   ),
   'WebserviceOutputInterface' => 
   array (
-    'path' => 'classes/webservice/WebserviceOutputInterface.php',
+    'path' => 'classes\\webservice\\WebserviceOutputInterface.php',
     'type' => 'interface',
   ),
   'WebserviceOutputJSON' => 
@@ -3531,7 +3531,7 @@
   ),
   'WebserviceOutputJSONCore' => 
   array (
-    'path' => 'classes/webservice/WebserviceOutputJSON.php',
+    'path' => 'classes\\webservice\\WebserviceOutputJSON.php',
     'type' => 'class',
   ),
   'WebserviceOutputXML' => 
@@ -3541,7 +3541,7 @@
   ),
   'WebserviceOutputXMLCore' => 
   array (
-    'path' => 'classes/webservice/WebserviceOutputXML.php',
+    'path' => 'classes\\webservice\\WebserviceOutputXML.php',
     'type' => 'class',
   ),
   'WebserviceRequest' => 
@@ -3551,7 +3551,7 @@
   ),
   'WebserviceRequestCore' => 
   array (
-    'path' => 'classes/webservice/WebserviceRequest.php',
+    'path' => 'classes\\webservice\\WebserviceRequest.php',
     'type' => 'class',
   ),
   'WebserviceSpecificManagementAttachments' => 
@@ -3561,7 +3561,7 @@
   ),
   'WebserviceSpecificManagementAttachmentsCore' => 
   array (
-    'path' => 'classes/webservice/WebserviceSpecificManagementAttachments.php',
+    'path' => 'classes\\webservice\\WebserviceSpecificManagementAttachments.php',
     'type' => 'class',
   ),
   'WebserviceSpecificManagementImages' => 
@@ -3571,12 +3571,12 @@
   ),
   'WebserviceSpecificManagementImagesCore' => 
   array (
-    'path' => 'classes/webservice/WebserviceSpecificManagementImages.php',
+    'path' => 'classes\\webservice\\WebserviceSpecificManagementImages.php',
     'type' => 'class',
   ),
   'WebserviceSpecificManagementInterface' => 
   array (
-    'path' => 'classes/webservice/WebserviceSpecificManagementInterface.php',
+    'path' => 'classes\\webservice\\WebserviceSpecificManagementInterface.php',
     'type' => 'interface',
   ),
   'WebserviceSpecificManagementSearch' => 
@@ -3586,7 +3586,7 @@
   ),
   'WebserviceSpecificManagementSearchCore' => 
   array (
-    'path' => 'classes/webservice/WebserviceSpecificManagementSearch.php',
+    'path' => 'classes\\webservice\\WebserviceSpecificManagementSearch.php',
     'type' => 'class',
   ),
   'Zone' => 
@@ -3596,7 +3596,7 @@
   ),
   'ZoneCore' => 
   array (
-    'path' => 'classes/Zone.php',
+    'path' => 'classes\\Zone.php',
     'type' => 'class',
   ),
 ); ?>
